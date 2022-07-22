@@ -11,11 +11,10 @@
 }*/
 
 :root {
-  --main-bg-color: #242424;
-  --main-text-color: #f0f0f0;
-  --primary-bg-color: #272727;
-  --seccondary-bg-color: #323232;
-  --primary-accent-color: #e33535;
+  --white: #f0f0f0;
+  --dark-gray: #272727;
+  --light-gray: #323232;
+  --red: #e33535;
 }
 
 body {
@@ -23,8 +22,8 @@ body {
   min-height: 100vh;
   margin: 0;
   font-family: "Source Sans Pro", "Open Sans", Roboto, "San Francisco", Helvetica, Arial, sans-serif;
-  background-color: var(--seccondary-bg-color);
-  color: var(--main-text-color);
+  background-color: var(--light-gray);
+  color: var(--white);
 }
 
 @font-face {
@@ -32,18 +31,23 @@ body {
   src: url(./fonts/KorolevLiU-Medium.woff);
 }
 
+@keyframes fade-in {
+  from { opacity: 1; }
+  to { opacity: 0.8; }
+}
 
-mark {
-  color: var(--primary-accent-color);
-  background-color: transparent;
+@keyframes fade-out {
+  from { opacity: 0.8; }
+  to { opacity: 1; }
 }
 
 .box-shadow {
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;}
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
   
 .main {
   padding-top: 76px;
-  background-color: var(--seccondary-bg-color);
+  background-color: var(--light-gray);
 }
 
 .centered {
@@ -56,4 +60,36 @@ mark {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.red {
+  color: var(--red);
+}
+
+.red-bg {
+  background-color: var(--red);
+}
+
+.dark-gray {
+  color: var(--dark-gray);
+}
+
+.dark-gray-bg {
+  background-color: var(--dark-gray);
+}
+
+.light-gray {
+  color: var(--light-gray);
+}
+
+.light-gray-bg {
+  background-color: var(--light-gray);
+}
+
+.white {
+  color: var(--white);
+}
+
+.white-bg {
+  background-color: var(--white);
 }

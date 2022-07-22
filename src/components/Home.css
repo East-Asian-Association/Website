@@ -1,8 +1,4 @@
-﻿#page-content {
-  grid-column: 1 / 3;
-}
-
-.banner {
+﻿.banner {
   margin: 0;
   padding: 0;
   height: calc(100vh - 76px);
@@ -16,7 +12,6 @@
   background-color: #000;
   background-size: cover;
   background-attachment: fixed;
-  background-repeat: no-repeat;
   filter: brightness(0.6) blur(4px);
 }
 
@@ -25,7 +20,6 @@
   font-weight: 700;
   font-size: 56px;
   text-shadow: 0 1px 40px #000;
-  color: var(--main-text-color);
   text-align: center;
   margin: 0;
 }
@@ -37,73 +31,60 @@
 button p {
   font-size: 20px;
   font-family: Liu;
-  color: var(--primary-accent-color);
   margin: auto;
 }
 
 .banner button {
   margin-top: 60px;
-  background-color: var(--main-text-color);
   border-radius: 40px;
   border: none;
-  background-color: var(--main-text-color);
+  animation: fade-out 0.2s forwards;
 }
 
 .banner button:hover {
-  filter: brightness(0.8);
+  animation: fade-in 0.2s forwards;
   cursor: pointer;
 }
 
 .banner button p {
   padding: 8px 24px 8px 24px;
-  color: var(--primary-bg-color);
   font-family: Liu;
   font-weight: 700;
   font-size: 20px;
 }
 
 .about {
-  background-color: var(--primary-bg-color);
   display: grid;
   grid-template-rows: 1fr 1fr;
   height: calc(100vh - 76px);
 }
 
-.about .item-1 {
-  background-color: var(--primary-accent-color);
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-.about .item-2 {
-  background-color: var(--primary-bg-color);
+.about img {
+  max-height: calc((100vh - 76px) / 3 - 50px);
+  border-radius: 12px;
+  margin: auto;
 }
 
 .about p {
-  color: var(--primary-accent-color);
   font-size: 18px;
   line-height: 1.5;
   font-family: Liu;
   text-align: center;
 }
 
-.about .grid-item {
-  margin: 0;
-}
-
-.about .grid-item h1 {
+.about h1 {
   padding-top: 10px;
   font-size: 20px;
-  color: var(--primary-accent-color);
   text-align: center;
 }
 
-.about .grid-item p {
+.about p {
   line-height: 1.5;
   font-size: 14px;
   text-align: center;
-  color: var(--main-text-color);
-}
-
-.about-grid-item hr {
-  color: var(--main-text-color);
-  width: 70%;
 }

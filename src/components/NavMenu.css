@@ -19,7 +19,7 @@ header {
   width: 100vw;
   height: 80px;
   z-index: 1;
-  background-color: var(--primary-bg-color);
+  background-color: var(--light-gray);
 }
 
 header ul {
@@ -39,7 +39,7 @@ header li {
 header li + li::before {
   content: "|";
   padding: 0 0.4em 0 0.4em;
-  color: var(--main-text-color);
+  color: var(--white);
 }
 
 header nav {
@@ -55,15 +55,11 @@ header nav a:link,
 header nav a:active {
   padding: 0 8px;
   text-transform: uppercase;
-  color: var(--main-text-color);
+  color: var(--white);
   font-family: Liu;
   text-decoration: none;
 }
 
 header nav a:hover {
   text-decoration: underline;
-}
-
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
 }

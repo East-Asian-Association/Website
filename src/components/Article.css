@@ -14,7 +14,7 @@
 }
 
 .article-content h1 {
-  color: var(--primary-accent-color);
+  color: var(--red);
   font-size: 28px;
   margin-bottom: 20px;
   font-weight: 400;
