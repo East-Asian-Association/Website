@@ -10,25 +10,13 @@
   --primary-accent-color: #ffac4c;
 }*/
 
-:root {
-  --white: #f0f0f0;
-  --dark-gray: #272727;
-  --light-gray: #323232;
-  --red: #e33535;
-}
-
-body {
-  position: relative;
-  min-height: 100vh;
-  margin: 0;
-  font-family: "Source Sans Pro", "Open Sans", Roboto, "San Francisco", Helvetica, Arial, sans-serif;
-  background-color: var(--light-gray);
-  color: var(--white);
-}
-
 @font-face {
-  font-family: Liu;
-  src: url(./fonts/KorolevLiU-Medium.woff);
+  font-family: 'Liu';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('./fonts/KorolevLiU-Medium.woff') format('woff'),
+       url('./fonts/KorolevLiU-Medium.ttf') format('ttf');
 }
 
 @keyframes fade-in {
@@ -39,6 +27,22 @@ body {
 @keyframes fade-out {
   from { opacity: 0.8; }
   to { opacity: 1; }
+}
+
+:root {
+  --white: #f0f0f0;
+  --dark-gray: #272727;
+  --light-gray: #323232;
+  --red: #bc3131;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+  background-color: var(--light-gray);
+  color: var(--white);
 }
 
 .box-shadow {

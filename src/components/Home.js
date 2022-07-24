@@ -7,7 +7,7 @@ export class Home extends Component {
 
   scrollToContent() {
       $([document.documentElement, document.body]).animate({
-          scrollTop: $("#about").offset().top - 80
+          scrollTop: $("#learn-more").offset().top
       }, 600, "swing");
   }
 
@@ -23,21 +23,45 @@ export class Home extends Component {
             <button id="learn-more" onClick={this.scrollToContent}><p>Learn more</p></button>
           </div>
         </div>
-        <div id="about" class="about">
-          <div class="about-grid red-bg"> 
-            <img src="/img/cc-fika.jpg" alt=""></img>
-            <div>
-              <h1>Conversation Corner</h1>
-              <p>Every tuesday and thursday at <span class="red">17:15</span> we hosts Conversation Corners for culutural and language exchange. </p> 
-              <p>We also offer <span class="red">free fika</span> for all our members!</p>
-            </div>                  
+        <div id="learn-more" class="summary">
+          <div class="summary-item dark-gray-bg"> 
+            <div class="summary-item-container">
+              <div class="summary-image">
+                <img src="/img/cc-fika.jpg" alt=""></img>
+              </div>
+              <div class="summary-spacer"></div>
+              <div class="summary-text">
+                <h1>Conversation Corner</h1>
+                <p>Every tuesday and thursday at <span class="red">17:15</span> we hosts Conversation Corners for culutural and language exchange. </p> 
+                <p>We also offer <span class="red">free fika</span> for all our members!</p>
+              </div> 
+            </div>                    
           </div>
-          <div class="about-grid dark-gray-bg">
-            <div>
-              <h1 class="dark-gray">Asienkunskap</h1>
-              <p><a href="https://liu.se/utbildning/program/6asik">Asienkunskap</a>. </p> 
+          <div class="summary-item red-bg">
+            <div class="summary-item-container">
+              <div class="summary-text">
+                <h1>Tekken</h1>
+                <p>Every tuesday and thursday at <span class="dark-gray">17:15</span> we hosts Conversation Corners for culutural and language exchange. </p> 
+                <p>We also offer <span class="dark-gray">free fika</span> for all our members!</p>
+              </div>
+              <div class="summary-spacer"></div>
+              <div class="summary-image">
+                <img src="/img/cc-fika.jpg" alt=""></img>
+              </div>          
             </div>
-            <img src="/img/cc-fika.jpg" alt=""></img>
+          </div>
+          <div class="summary-item dark-gray-bg"> 
+            <div class="summary-item-container">
+              <div class="summary-image">
+                <img src="/img/cc-fika.jpg" alt=""></img>
+              </div>
+              <div class="summary-spacer"></div>
+              <div class="summary-text">
+                <h1>Tekken</h1>
+                <p>Every tuesday and thursday at <span class="red">17:15</span> we hosts Conversation Corners for culutural and language exchange. </p> 
+                <p>We also offer <span class="red">free fika</span> for all our members!</p>
+              </div>    
+            </div>                             
           </div>
         </div>
       </div>

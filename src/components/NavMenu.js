@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import './NavMenu.css';
 
 export class NavMenu extends Component {
@@ -22,7 +21,7 @@ export class NavMenu extends Component {
 
   render () {
     return (
-      <header class="box-shadow">
+      <header class="box-shadow dark-gray-bg">
         <nav>
             <a href="/" id="logo">
                 <img src="/img/navbar-logo.png"/>
