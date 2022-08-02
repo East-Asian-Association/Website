@@ -1,7 +1,7 @@
 ﻿.banner {
   margin: 0;
   padding: 0;
-  height: calc(61vh);
+  height: calc(92vh);
   overflow: hidden;
   position: relative;
 }
@@ -55,7 +55,7 @@ button p {
 
 .summary {
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .summary-item {
@@ -74,23 +74,24 @@ button p {
 
 .summary-image {
   display: inline-block;
-  max-width: 420px;
+  fill: cover;
+  height: 260px;
 }
 
 .summary-image img {
-  width: 100%;
+  height: 100%;
   border-radius: 20px;
   display: block;
 }
 
 .summary-text h1 {
   padding-top: 10px;
-  font-size: 42px;
+  font-size: 36px;
   font-weight: 700;
 }
 
 .summary-text p {
-  font-size: 18px;
+  font-size: 19px;
 }
 
 .summary-spacer {
@@ -99,7 +100,7 @@ button p {
   flex-shrink: 0;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 700px) {
   .summary-item-container {
     flex-direction: column;
   }

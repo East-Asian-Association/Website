@@ -21,7 +21,7 @@ export class NavMenu extends Component {
 
   render () {
     return (
-      <header class="box-shadow dark-gray-bg">
+      <header class="box-shadow light-gray-bg">
         <nav>
             <a href="/" id="logo">
                 <img src="/img/navbar-logo.png"/>

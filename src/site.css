@@ -30,8 +30,9 @@
 }
 
 :root {
-  --white: #f0f0f0;
-  --dark-gray: #272727;
+  --white: #e0e0e0;
+  --middle-gray: #2A2A2A;
+  --dark-gray: #252525;
   --light-gray: #323232;
   --red: #bc3131;
 }
@@ -74,8 +75,12 @@ body {
   background-color: var(--red);
 }
 
-.dark-gray {
-  color: var(--dark-gray);
+.middle-gray {
+  color: var(--middle-gray);
+}
+
+.middle-gray-bg {
+  background-color: var(--middle-gray);
 }
 
 .dark-gray-bg {
@@ -96,4 +101,8 @@ body {
 
 .white-bg {
   background-color: var(--white);
+}
+
+.bold {
+  font-weight: 700;
 }
