@@ -22,13 +22,16 @@ export class NavMenu extends Component {
   render () {
     return (
       <header class="box-shadow light-gray-bg">
-        <nav>
-            <a href="/" id="logo">
-                <img src="/img/navbar-logo.png"/>
+        <nav class="navbar">
+            <a href="/" class="navbar-logo-wrapper">
+                <img class="navbar-logo" src="/img/navbar-logo.png"/>
             </a>
             <ul>
                 <li>
                     <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/contact">Contact</a>
                 </li>
                 <li>
                     <a href="/membership">Membership</a>
@@ -38,9 +41,6 @@ export class NavMenu extends Component {
                 </li>
                 <li>
                     <a href="/international-students">International Students</a>
-                </li>
-                <li>
-                    <a href="/newsletter">Newsletter</a>
                 </li>
                 <li>
                     <a href="/photos">Photos</a>

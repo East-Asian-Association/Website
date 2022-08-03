@@ -1,57 +1,52 @@
-﻿#logo {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  grid-column: 1;
-  grid-row: 1;
-  height: 80px;
-}
-
-header img {
-  height: 60px;
-  margin: auto;
-  padding: 10px 20px 10px 20px;
-}
-
-header {
+﻿header {
   position: fixed;
   top: 0;
   width: 100vw;
   height: 80px;
   z-index: 1;
+  text-align: center;
 }
 
-header ul {
+.navbar-logo-wrapper {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 80px;
+}
+
+.navbar-logo {
+  height: 60px;
+  margin: auto;
+  padding: 10px 20px 10px 20px;
+  float: left;
+}
+
+.navbar {
+  max-width: 1250px;
+  align-items: center;
   margin: auto;
   padding: 0;
-  grid-row: 1;
-  grid-column-start: 2;
-  grid-column-end: 2;
 }
 
-header li {
-  display: inline-block;
+.navbar ul {
+  padding: 0 250px 0 0;
+}
+
+.navbar li {
+  display: inline;
   padding: 0;
   font-size: 14px;
 }
 
-header li + li::before {
+.navbar li + li::before {
   content: "|";
   padding: 0 0.4em 0 0.4em;
   color: var(--white);
 }
 
-header nav {
-  display: grid;
-  grid-template-columns: 250px 1fr 250px;
-  height: 100%;
-  max-width: 1250px;
-  margin: auto;
-}
-
-header nav a,
-header nav a:link,
-header nav a:active {
+.navbar a,
+.navbar a:link,
+.navbar a:active {
   padding: 0 8px;
   text-transform: uppercase;
   color: var(--white);
@@ -59,6 +54,12 @@ header nav a:active {
   text-decoration: none;
 }
 
-header nav a:hover {
+.navbar a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 1250px) {
+  .navbar ul {
+    padding-right: 20vw;
+  }
 }

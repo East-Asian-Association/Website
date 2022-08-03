@@ -15,17 +15,24 @@
   filter: brightness(0.6) blur(4px);
 }
 
+.banner-title {
+  font-size: 80px;
+}
+
+.banner-supertext {
+  font-size: 56px;
+}
+
+.banner-subtext {
+  font-size: 48px;
+}
+
 .banner p {
   font-family: Liu;
   font-weight: 700;
-  font-size: 56px;
   text-shadow: 0 1px 40px #000;
   text-align: center;
   margin: 0;
-}
-
-.banner .large {
-  font-size: 96px;
 }
 
 button p {
@@ -67,7 +74,7 @@ button p {
   display: inline-flex;
   flex-direction: row;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1250px;
   text-align: left;
   box-sizing: border-box;
 }
@@ -100,8 +107,21 @@ button p {
   flex-shrink: 0;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
+  .summary-text p {
+    font-size: 16px;
+  }
+
+  .summary-text h1 {
+    font-size: 26px;
+  }
+
   .summary-item-container {
     flex-direction: column;
+    max-width: 380px;
+  }
+
+  .summary-text {
+    margin-bottom: 20px;
   }
 }
