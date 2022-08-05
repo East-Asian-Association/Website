@@ -23,9 +23,9 @@ export class NavMenu extends Component {
     return (
       <header class="box-shadow light-gray-bg">
         <nav class="navbar">
-            <a href="/" class="navbar-logo-wrapper">
-                <img class="navbar-logo" src="/img/navbar-logo.png"/>
-            </a>
+                <a href="/" class="navbar-logo-wrapper">
+                  <img class="navbar-logo" src="/img/navbar-logo.png"/>
+                </a>
             <ul>
                 <li>
                     <a href="/">Home</a>

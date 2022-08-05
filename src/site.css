@@ -13,11 +13,39 @@
 @font-face {
   font-family: 'Liu';
   font-style: normal;
-  font-weight: 400;
+  font-weight: normal;
   src: local(''),
-       url('./fonts/KorolevLiU-Medium.woff') format('woff'),
+       url('./fonts/KorolevLiU-Medium.woff2') format('woff2'),
        url('./fonts/KorolevLiU-Medium.ttf') format('ttf');
 }
+
+@font-face {
+  font-family: 'Liu';
+  font-style: normal;
+  font-weight: light;
+  src: local(''),
+       url('./fonts/KorolevLiU-Light.woff2') format('woff2'),
+       url('./fonts/KorolevLiU-Light.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Liu';
+  font-style: normal;
+  font-weight: bold;
+  src: local(''),
+       url('./fonts/KorolevLiU-Bold.woff2') format('woff2'),
+       url('./fonts/KorolevLiU-Bold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'SentyTang';
+  font-style: normal;
+  font-weight: bold;
+  src: local(''),
+       url('./fonts/HanyiSentyTang.woff2') format('woff2'),
+       url('./fonts/HanyiSentyTang.ttf') format('ttf');
+}
+
 
 @keyframes fade-in {
   from { opacity: 1; }
@@ -30,7 +58,7 @@
 }
 
 :root {
-  --white: #d8d6d6;
+  --white: #e1e1e1;
   --middle-gray: #2A2A2A;
   --dark-gray: #202020;
   --light-gray: #323232;
@@ -58,13 +86,14 @@ body {
 .centered {
   margin: 0;
   position: absolute;
-  top: 50%;
-  left: 50%;
   -ms-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  white-space: nowrap;
 }
 
 .red {

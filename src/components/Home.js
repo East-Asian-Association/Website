@@ -7,7 +7,7 @@ export class Home extends Component {
 
   scrollToContent() {
       $([document.documentElement, document.body]).animate({
-          scrollTop: $("#learn-more").offset().top + 205
+          scrollTop: $("#learn-more").position().top - 80
       }, 600, "swing");
   }
 
@@ -20,7 +20,7 @@ export class Home extends Component {
             <p class="banner-supertext">Welcome To the</p>
             <p class="banner-title">East Asian Association</p>
             <p class="banner-subtext">林雪平大学東亞協会</p>
-            <button id="learn-more" onClick={this.scrollToContent}><p>Learn more</p></button>
+            <button class="banner-button" onClick={this.scrollToContent}><p>Learn more</p></button>
           </div>
         </div>
         <div id="learn-more" class="summary">
@@ -43,7 +43,7 @@ export class Home extends Component {
               <div class="summary-text">
                 <h1>Asienkunskap</h1>
                 <p>EAA is a sektion at Linköping University responsible for the program <span class="red bold">Asienkunskap</span>.</p>
-                <p>The program covers one year of language studies in either <span class="red bold">Japanese</span> or <span class="red bold">Chinese</span> aswell as  <span class="red bold">South-East Asian</span> <span class="red bold">History</span> and <span class="red bold">Politics</span></p>
+                <p>The program covers one year of language studies in either <span class="red bold">Japanese</span> or <span class="red bold">Chinese</span>, aswell as  <span class="red bold">South-East Asian</span> <span class="red bold">History</span> and <span class="red bold">Politics</span></p>
               </div>
               <div class="summary-spacer"></div>
               <div class="summary-image">
