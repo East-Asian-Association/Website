@@ -6,7 +6,8 @@ export class Membership extends Component {
 
   render () {
     return (
-      <div class="content">
+      <div class="article-content">
+        <h1>Membership</h1>
           <p>
               Thank you for showing your interest in the EAA!
               <br></br>

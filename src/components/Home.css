@@ -53,7 +53,7 @@
 .banner-button p {
   padding: 8px 24px 8px 24px;
   font-family: Liu;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 20px;
   margin: auto;
 }
@@ -72,7 +72,7 @@
   display: inline-flex;
   flex-direction: row;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1100px;
   text-align: left;
   box-sizing: border-box;
   height: 100%;
@@ -90,7 +90,6 @@
 }
 
 .summary-text {
-  width: 50%;
   font-family: Liu;
 }
 
@@ -151,7 +150,7 @@
   }
 
   .summary-text {
-    width: 100%;
+    width: 391px;
     height: 50%;
   }
 }
@@ -160,6 +159,10 @@
   .summary-image {
     width: 92%;
     height: auto;
+  }
+
+  .summary-text {
+    width: 92%;
   }
 
   .summary-image img {

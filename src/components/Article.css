@@ -1,10 +1,8 @@
 ﻿.article-content {
-  min-height: 49vh;
-  grid-column: 2 / 2;
-  grid-row: 1 / 2;
+  min-height: calc(100vh - 380px);
   max-width: 1000px;
   margin: auto;
-  padding-top: 100px;
+  padding: 40px 80px 40px 80px;
 }
 
 .article-content p {
@@ -14,10 +12,9 @@
 }
 
 .article-content h1 {
-  color: var(--red);
   font-size: 28px;
   margin-bottom: 20px;
-  font-weight: 400;
+  font-weight: bold;
   margin-top: 0;
   text-transform: capitalize;
 }

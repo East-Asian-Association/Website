@@ -1,8 +1,4 @@
-﻿footer {
-  height: 210px;
-}
-
-.fa {
+﻿.fa {
   border-radius: 4px;
   padding: 12px;
   margin: 8px 4px 0px 4px;
@@ -22,12 +18,11 @@
   grid-template-columns: 1fr 1fr 1fr;
   width: 100%;
   max-width: 1000px;
-  padding: 50px 0 20px 0;
   margin: auto;
+  height: 200px;
 }
 
 .footer-grid-item {
-  height: 140px;
   margin: auto;
 }
 
