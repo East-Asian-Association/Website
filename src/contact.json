@@ -1,0 +1,76 @@
+{
+    "members": [
+        {
+            "post": "Ordförande",
+            "name": "Kendal Fritzell",
+            "studorgmail": "ordf@eastasian.studorg.liu.se",
+            "gmail": "ordf.eaa@gmail.com"
+        },
+        {
+            "post": "Vice Ordförande",
+            "name": "Louise Eriksson",
+            "studorgmail": "vordf@eastasian.studorg.liu.se",
+            "gmail": "vordf.eaa@gmail.com"
+        },
+        {
+            "post": "Sekreterare",
+            "name": "Nicole Chui",
+            "studorgmail": "sekr@eastasian.studorg.liu.se",
+            "gmail": "sekr.eaa@gmail.com"
+        },
+        {
+            "post": "AMO",
+            "name": "Noah Svedlund",
+            "studorgmail": "amo@eastasian.studorg.liu.se",
+            "gmail": "Amo.eaa.liu@gmail.com"
+        },
+        {
+            "post": "CC-ansvarig",
+            "name": "Carl Österman",
+            "studorgmail": "cc@eastasian.studorg.liu.se",
+            "gmail": "ccansvarig.eaa@gmail.com"
+        },
+        {
+            "post": "Eventansvarig",
+            "name": "Britta Karlsson",
+            "studorgmail": "event@eastasian.studorg.liu.se",
+            "gmail": "eventansvarig.eaa@gmail.com"
+        },
+        {
+            "post": "General",
+            "name": "Linus Lundblad",
+            "studorgmail": "general@eastasian.studorg.liu.se",
+            "gmail": "generalen.eaa@gmail.com"
+        },
+        {
+            "post": "Informations-ansvarig",
+            "name": "Linn Jägestedt",
+            "studorgmail": "info@eastasian.studorg.liu.se",
+            "gmail": "infoansvarig.eaa@gmail.com"
+        },
+        {
+            "post": "Näringslivs-ansvaring",
+            "name": "Agnes Wikander",
+            "studorgmail": "naringsliv@eastasian.studorg.liu.se",
+            "gmail": "naringsliv@eastasian.studorg.liu.se "
+        },
+        {
+            "post": "Kassör",
+            "name": "Hans Birkedal",
+            "studorgmail": "kassor@eastasian.studorg.liu.se",
+            "gmail": "kassor.eaa@gmail.com"
+        },
+        {
+            "post": "Studienämndsordförande",
+            "name": "Simon Ardfors",
+            "studorgmail": "snordf@eastasian.studorg.liu.se",
+            "gmail": "snordf.eaa@gmail.com"
+        },
+        {
+            "post": "Valberedningen",
+            "name": "Chioma Otonna",
+            "studorgmail": "",
+            "gmail": "valbered.eaa@gmail.com"
+        }
+    ]
+}

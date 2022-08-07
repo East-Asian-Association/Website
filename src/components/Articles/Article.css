@@ -1,8 +1,8 @@
 ﻿.article-content {
-  min-height: calc(100vh - 380px);
+  min-height: calc(100vh - 360px);
   max-width: 1000px;
   margin: auto;
-  padding: 40px 80px 40px 80px;
+  padding: 40px 80px;
 }
 
 .article-content p {
@@ -13,14 +13,12 @@
 
 .article-content h1 {
   font-size: 28px;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
   font-weight: bold;
-  margin-top: 0;
-  text-transform: capitalize;
 }
 
 .article-content h2 {
   font-size: 26px;
-  font-weight: 400;
-  margin-bottom: 0;
+  font-weight: normal;
+  margin: 0;
 }
