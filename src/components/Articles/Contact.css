@@ -1,0 +1,47 @@
+.members {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.member {
+    background-color: var(--dark-gray);
+    padding: 20px; 
+}
+
+.member-flex {
+    display: flex; 
+}
+
+.member-info {
+    width: 100%;
+}
+
+.member-photo {
+    height: 120px;
+}
+
+.member p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.member h2 {
+    font-size: 26px;
+}
+
+.member h3 {
+    font-size: 19px;
+    margin: 6px 0 20px 0;
+}
+
+.member img {
+    height: 100%;
+}
+
+@media (max-width: 950px) {
+    .members {
+        grid-template-columns: 1fr;
+    }
+}
