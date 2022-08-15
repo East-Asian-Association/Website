@@ -1,2 +1,1 @@
-# EAAWebsite
-Linköping University East Asian Association's website
+The webiste of East Asian Association at Linköping University
