@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Contact.css';
-import './Article.css'
-import contactInfo from '../../contact.json';
+import '../Article.css'
+import contactInfo from './contact.json';
 
 export class Contact extends Component {
   static displayName = Contact.name;

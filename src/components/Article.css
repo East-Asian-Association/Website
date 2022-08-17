@@ -1,13 +1,25 @@
-﻿.article-content {
-  min-height: calc(100vh - 360px);
+﻿.article {
   max-width: 1000px;
+  display: flex;
   margin: auto;
+} 
+
+.sidenav {
+  display: inline-block;
+  background-color: var(--middle-gray);
+  margin: 40px;
+  height: 80vh;
+}
+
+.article-content {
+  display: block;
+  min-height: calc(100vh - 360px);
   padding: 40px 80px;
   font-family: Liu;
 }
 
 .article-content p {
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.9;
   margin: 10px 0 24px 0;
 }

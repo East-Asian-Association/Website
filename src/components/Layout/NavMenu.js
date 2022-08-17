@@ -45,6 +45,9 @@ export class NavMenu extends Component {
                     <a href="/">Home</a>
                 </li>
                 <li>
+                    <a href="/about">About</a>
+                </li>
+                <li>
                     <a href="/contact">Contact</a>
                 </li>
                 <li>
@@ -55,9 +58,6 @@ export class NavMenu extends Component {
                 </li>
                 <li>
                     <a href="/international-students">International Students</a>
-                </li>
-                <li>
-                    <a href="/photos">Photos</a>
                 </li>
             </ul>
         </nav>
