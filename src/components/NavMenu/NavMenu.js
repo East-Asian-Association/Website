@@ -26,7 +26,7 @@ export class NavMenu extends Component {
       }
       else {
         $(".navbar ul").animate({
-          top: 0
+          top: 60
         }, 500);
       }
     });
@@ -34,16 +34,19 @@ export class NavMenu extends Component {
 
   render () {
     return (
-      <header class="box-shadow light-gray-bg">
-        <nav class="navbar light-gray-bg">
+      <header class="box-shadow white-bg">
+        <nav class="navbar">
             <a href="/" class="navbar-logo-wrapper">
-              <img class="navbar-logo" src="/img/navbar-logo.png"/>
+              <img class="navbar-logo" src="/img/navbar-logo.svg"/>
             </a>
-            <button class="navbar-toggle" onClick={this.toggleNavbar}><MenuIcon/></button>
-            <ul>
-                <li>
-                    <a href="/">Home</a>
-                </li>
+
+            <div class="navbar-spacer"/>
+
+            <button class="navbar-toggle red" onClick={this.toggleNavbar}>
+              <MenuIcon/>
+            </button>
+
+            <ul class="black white-bg">
                 <li>
                     <a href="/about">About</a>
                 </li>
@@ -51,7 +54,10 @@ export class NavMenu extends Component {
                     <a href="/contact">Contact</a>
                 </li>
                 <li>
-                    <a href="/membership">Membership</a>
+                    <a href="/sponsorship">Sponsors</a>
+                </li>
+                <li>
+                    <a href="/conversation">Conversation Corner</a>
                 </li>
                 <li>
                     <a href="/asienkunskap">Asienkunskap</a>

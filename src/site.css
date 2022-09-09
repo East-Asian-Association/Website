@@ -58,11 +58,10 @@
 }
 
 :root {
-  --white: #e1e1e1;
-  --middle-gray: #2A2A2A;
-  --dark-gray: #202020;
-  --light-gray: #323232;
-  --red: #bc3131;
+  --white: #f7f7f7;
+  --red: #911f2a;
+  --black: #1A1A1A;
+  --gray: #e4e4e4;
 }
 
 body {
@@ -70,8 +69,8 @@ body {
   min-height: 100vh;
   margin: 0;
   font-family: sans-serif;
-  background-color: var(--light-gray);
-  color: var(--white);
+  background-color: black;
+  color: var(--dark-gray);
 }
 
 .box-shadow {
@@ -79,7 +78,6 @@ body {
 }
   
 .main {
-  padding-top: 70px;
   background-color: var(--light-gray);
 }
 
@@ -96,40 +94,36 @@ body {
   white-space: nowrap;
 }
 
-.red {
-  color: var(--red);
-}
-
-.red-bg {
-  background-color: var(--red);
-}
-
-.middle-gray {
-  color: var(--middle-gray);
-}
-
-.middle-gray-bg {
-  background-color: var(--middle-gray);
-}
-
-.dark-gray-bg {
-  background-color: var(--dark-gray);
-}
-
-.light-gray {
-  color: var(--light-gray);
-}
-
-.light-gray-bg {
-  background-color: var(--light-gray);
-}
-
 .white {
-  color: var(--white);
+  color: var(--white) !important;
 }
 
 .white-bg {
-  background-color: var(--white);
+  background-color: var(--white) !important;
+}
+
+.red {
+  color: var(--red) !important;
+}
+
+.red-bg {
+  background-color: var(--red) !important;
+}
+
+.black {
+  color: var(--black) !important;
+}
+
+.black-bg {
+  background-color: var(--black) !important;
+}
+
+.gray {
+  color: var(--gray) !important;
+}
+
+.gray-bg {
+  background-color: var(--gray) !important;
 }
 
 .bold {

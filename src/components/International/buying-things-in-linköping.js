@@ -1,7 +1,7 @@
 export default function buyingThingsInLinköping() {
     return(
         <article class="article-content">
-            <h1>Membership</h1>
+            <h1>Köp saker!!!!</h1>
             <p>
             Thank you for showing your interest in the EAA!
             <br></br>

@@ -1,53 +1,40 @@
 ﻿header {
   position: fixed;
-  top: 0;
   width: 100vw;
-  height: 70px;
+  height: 60px;
   z-index: 2;
   text-align: center;
+  background-color: #00000000;
 }
 
 .navbar-logo {
-  height: 60px;
-  padding: 5px 0 5px 0;
+  height: 48px;
+  padding: 6px 0 6px 0;
+  filter: grayscale(1);
+}
+
+.navbar-logo:hover {
+  filter: grayscale(0);
 }
 
 .navbar-logo-wrapper {
   height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar-toggle {
-  width: 35px;
-  height: 35px;
-  margin: 15px 40px 15px 40px;
-  float: right;
-  padding: 0;
-  border: none;
-  background-color: transparent;
-  color: var(--white);
-  display: none;
-}
-
-.navbar-toggle:hover{
-  opacity: 0.7;
-  cursor: pointer;
 }
 
 .navbar {
-  max-width: 1000px; 
+  max-width: calc(100vw - 40px);
   height: 100%;
   display: inline-flex;
   align-items: center;
   flex-direction: row;
-  margin-right: 0;
-  z-index: 1;
+}
+
+.navbar-spacer {
+  width: 90vw;
 }
 
 .navbar ul {
-  z-index: 1;
-  padding-left: 10px;
+  margin-right: 20px;
 }
 
 .navbar li {
@@ -63,25 +50,43 @@
 .navbar li a,
 .navbar li a:link,
 .navbar li a:active {
-  padding: 0px 10px;
+  padding: 0px 12px;
   text-transform: uppercase;
-  color: var(--white);
   font-family: Liu; 
   text-decoration: none;
+  color: inherit;
 }
 
 .navbar a {
-  white-space: nowrap;   
+  white-space: nowrap;  
 }
 
 .navbar li a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: var(--red);
+}
+
+.navbar-toggle {
+  width: 35px;
+  height: 35px;
+  margin: 15px 0px 15px 0px;
+  float: right;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  display: none;
+}
+
+.navbar-toggle:hover {
+  opacity: 0.7;
+  cursor: pointer;
 }
 
 @media (max-width: 950px) {
   .navbar {
     display: block;
     margin: 0;
+    z-index: 1;
   }
 
   .navbar-toggle {
@@ -91,9 +96,9 @@
   .navbar li {
     text-align: right;
     display:  block;
-    padding: 0px 35px 20px 0px;
-    background-color: var(--light-gray);;
-    font-size: 14px;
+    padding: 0px 0px 20px 20px;
+    font-size: 16px;
+    text-align: left;
   }
 
   .navbar li + li::before {
@@ -102,16 +107,17 @@
 
   .navbar-logo {
     float: left;
+    margin-left: 20px;
   }
 
   .navbar ul {
-    position: relative;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    background-color: var(--dark-gray);
-    z-index: -1;
+    position: absolute;
     top: -400px;
+    width: 100%;
+    padding: 10px 0 0 0 ;
+    margin: 0;
+    z-index: -1;
     float: right;
+    right: 0;
   }
 }

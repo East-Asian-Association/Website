@@ -1,5 +1,16 @@
-﻿.footer {
+﻿.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
   height: 200px;
+  padding: 40px 0 160px 0;
+}
+
+.footer-grid-item {
+  margin: auto;
+  height: 100px;
 }
 
 .fa {
@@ -17,34 +28,23 @@
   animation: fade-in 0.2s forwards;
 }
 
-.footer-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  width: 100%;
-  max-width: 1000px;
-  margin: auto;
-  height: 200px;
-}
-
-.footer-grid-item {
-  margin: auto;
-}
-
 footer h1 {
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 8px;
   text-align: center;
+  font-family: Liu;
 }
 
 footer p {
   text-align: center;
-  margin-top: 16px;
-  font-size: 12px;
-  color: #AAA;
-  line-height: 0.5;
+  margin-top: 0px;
+  font-size: 14px;
+  line-height: 0.7;
+  font-family: Liu;
 }
 
 footer hr {
   width: 100px;
-  border-color: #AAA;
+  margin-bottom: 20px;
+  border-color: var(--gray);
 }
