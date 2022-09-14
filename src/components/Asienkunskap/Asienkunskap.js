@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
-import '../Article.css';
+import $ from 'jquery';
+
+import '../Article/Article.css';
+import changePageContent from '../Article/Article';
+
 import välkommenTillAsienkunskap from './välkommen-till-asienkunskap'
 import asienkunskapsGuiden from './asienkunskaps-guiden'
 
@@ -12,10 +16,10 @@ export class Asienkunskap extends Component {
   render () {
     return (
       <div class="article">
-        <nav class="sidenav">
+        <nav class="sidenav gray-bg">
           <ul>
-            <li> <button onClick={() => this.setState({ pageContent: välkommenTillAsienkunskap }) }>Välkommen</button></li>
-            <li> <button onClick={() => this.setState({ pageContent: asienkunskapsGuiden }) }>Asienkunskaps Guiden</button></li>
+            <li id="firstPage" class="redOnHover selected" onClick={ () => changePageContent(this, välkommenTillAsienkunskap, 'firstPage') }>Välkommen</li>
+            <li id="seccondPage" class="redOnHover" onClick={() => { changePageContent(this, asienkunskapsGuiden, 'seccondPage'); } }>Asienkunskaps Guiden</li>
           </ul>
         </nav>
 

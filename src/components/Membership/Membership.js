@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../Article.css';
+import '../Article/Article.css';
 import membershipInfo from './membership-info';
 
 

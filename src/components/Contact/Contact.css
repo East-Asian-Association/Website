@@ -6,17 +6,17 @@
 }
 
 .member {
-    background-color: var(--dark-gray);
+    background-color: var(--red);
     padding: 20px; 
 }
 
 .member-flex {
-    display: flex; 
+    display: flex;
 }
 
 .member-info {
     width: 100%;
-    color: white;
+    color: var(--white);
 }
 
 .member-photo {
@@ -41,8 +41,10 @@
     height: 100%;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1150px) {
     .members {
         grid-template-columns: 1fr;
+        max-width: 500px;
+        margin: auto;
     }
 }

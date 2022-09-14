@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../Article.css';
+import '../Article/Article.css';
 import aboutUs from './about-us';
 
 export class About extends Component {
@@ -12,9 +12,9 @@ export class About extends Component {
   render () {
     return (
       <div class="article">
-        <nav class="sidenav">
+        <nav class="sidenav gray-bg">
           <ul>
-            <li> <button onClick={() => this.setState({ pageContent: aboutUs }) }>About Us</button></li>
+          <li id="firstPage" class="redOnHover selected" onClick={ () => changePageContent(this, aboutUs, 'firstPage') }>Välkommen</li>
           </ul>
         </nav>
 

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './NavMenu.css';
-import MenuIcon from '@mui/icons-material/Menu';
 import $ from "jquery";
 
 export class NavMenu extends Component {
@@ -42,28 +41,28 @@ export class NavMenu extends Component {
 
             <div class="navbar-spacer"/>
 
-            <button class="navbar-toggle red" onClick={this.toggleNavbar}>
-              <MenuIcon/>
+            <button class="navbar-toggle" onClick={this.toggleNavbar}>
+              <img class="navbar-toggle-icon" src="/img/navbar-toggle-icon.svg"/>
             </button>
 
             <ul class="black white-bg">
                 <li>
-                    <a href="/about">About</a>
+                    <a class="redOnHover" href="/about">About</a>
                 </li>
                 <li>
-                    <a href="/contact">Contact</a>
+                    <a class="redOnHover" href="/contact">Contact</a>
                 </li>
                 <li>
-                    <a href="/sponsorship">Sponsors</a>
+                    <a class="redOnHover" href="/sponsorship">Sponsors</a>
                 </li>
                 <li>
-                    <a href="/conversation">Conversation Corner</a>
+                    <a class="redOnHover" href="/conversation">Conversation Corner</a>
                 </li>
                 <li>
-                    <a href="/asienkunskap">Asienkunskap</a>
+                    <a class="redOnHover" href="/asienkunskap">Asienkunskap</a>
                 </li>
                 <li>
-                    <a href="/international-students">International Students</a>
+                    <a class="redOnHover" href="/international-students">International Students</a>
                 </li>
             </ul>
         </nav>

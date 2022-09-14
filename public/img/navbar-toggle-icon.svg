@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="200mm"
+   height="200mm"
+   viewBox="0 0 200 200"
+   version="1.1"
+   id="svg135"
+   sodipodi:docname="navbar-toggleicon.svg"
+   inkscape:version="1.2 (1:1.2.1+202207142221+cd75a1ee6d)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3542"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.31220833"
+     inkscape:cx="-294.67503"
+     inkscape:cy="377.95276"
+     inkscape:window-width="1920"
+     inkscape:window-height="995"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg135" />
+  <defs
+     id="defs132">
+    <linearGradient
+       id="linearGradient4026"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#911f2a;stop-opacity:1;"
+         offset="0"
+         id="stop4024" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4026"
+       id="linearGradient4028"
+       x1="25"
+       y1="100.13179"
+       x2="175"
+       y2="100.13179"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="layer1"
+     style="stroke:url(#linearGradient4028);stroke-width:13.22916667;stroke-dasharray:none;stroke-linejoin:miter;stroke-linecap:round">
+    <path
+       style="fill:none;stroke:url(#linearGradient4028);stroke-width:13.22916667;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+       d="M 25,50.132329 H 175"
+       id="path641" />
+    <path
+       style="fill:none;stroke:url(#linearGradient4028);stroke-width:13.22916667;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+       d="M 175,100.13179 H 25"
+       id="path643" />
+    <path
+       style="fill:none;stroke:url(#linearGradient4028);stroke-width:13.22916667;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1;stroke-dasharray:none"
+       d="M 175,150.13125 H 25"
+       id="path647" />
+  </g>
+</svg>

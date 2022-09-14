@@ -1,10 +1,9 @@
 ﻿.footer-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  width: 100%;
-  max-width: 1000px;
-  margin: auto;
+  max-width: 800px;
   height: 200px;
+  margin: auto;
   padding: 40px 0 160px 0;
 }
 
@@ -15,7 +14,7 @@
 
 .fa {
   border-radius: 4px;
-  padding: 12px;
+  padding: 10px;
   margin: 8px 4px 0px 4px;
   font-size: 25px !important;
   width: 25px;
@@ -47,4 +46,19 @@ footer hr {
   width: 100px;
   margin-bottom: 20px;
   border-color: var(--gray);
+}
+
+@media (max-width: 950px) {
+  .footer-grid {
+    grid-row: 1fr fr;
+    grid-template-columns: 1fr 1fr;
+    max-width: 300px;
+    padding-top: 60px;
+  }
+
+  #Contact {
+    padding-top: 70px;
+    grid-row: 2;
+    grid-column: 1/3;
+  }
 }

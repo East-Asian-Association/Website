@@ -62,15 +62,16 @@
   --red: #911f2a;
   --black: #1A1A1A;
   --gray: #e4e4e4;
+  --dark-gray: #bdbdbd;
 }
 
 body {
   position: relative;
   min-height: 100vh;
   margin: 0;
-  font-family: sans-serif;
-  background-color: black;
-  color: var(--dark-gray);
+  font-family: Liu;
+  background-color: var(--white);
+  color: var(--black);
 }
 
 .box-shadow {
@@ -79,6 +80,7 @@ body {
   
 .main {
   background-color: var(--light-gray);
+  padding-top: 60px;
 }
 
 .centered {
@@ -128,4 +130,13 @@ body {
 
 .bold {
   font-weight: 700;
+}
+
+.redOnHover {
+  color: var(--balck);
+}
+
+.redOnHover:hover {
+  color: var(--red); 
+  cursor: pointer;
 }
