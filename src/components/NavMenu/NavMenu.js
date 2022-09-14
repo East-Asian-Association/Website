@@ -53,10 +53,10 @@ export class NavMenu extends Component {
                     <a class="redOnHover" href="/contact">Contact</a>
                 </li>
                 <li>
-                    <a class="redOnHover" href="/sponsorship">Sponsors</a>
+                    <a class="redOnHover" href="/sponsors">Sponsors</a>
                 </li>
                 <li>
-                    <a class="redOnHover" href="/conversation">Conversation Corner</a>
+                    <a class="redOnHover" href="/membership">Membership</a>
                 </li>
                 <li>
                     <a class="redOnHover" href="/asienkunskap">Asienkunskap</a>

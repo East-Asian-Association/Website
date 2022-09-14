@@ -1,4 +1,4 @@
-export default function welcomeToSweden() {
+export default function text() {
     return(
         <article class="article-content">
             <h1>Membership</h1>
@@ -21,4 +21,4 @@ export default function welcomeToSweden() {
             </p>
         </article>
     );
-}
+  }

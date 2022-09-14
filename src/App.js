@@ -10,6 +10,7 @@ import { Membership } from './components/Membership/Membership';
 import { Asienkunskap } from './components/Asienkunskap/Asienkunskap';
 import { International } from './components/International/International';
 import { About } from './components/About/About';
+import { Sponsor } from './components/Sponsor/Sponsor';
 
 export default class App extends Component {
   static displayName = App.name;
@@ -18,7 +19,8 @@ export default class App extends Component {
     return (
       <Layout>
         <Route exact path='/' component={Home} />
-        <Route exact path='/about' component={ About } />
+        <Route exact path='/about' component={About} />
+        <Route exact path='/sponsors' component={Sponsor} />
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/membership' component={Membership}   />
         <Route exact path='/asienkunskap' component={Asienkunskap}   />

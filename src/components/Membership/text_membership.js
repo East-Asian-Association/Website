@@ -1,6 +1,6 @@
-export default function membershipInfo() {
+export default function text() {
     return(
-        <article class="article-content">
+        <article>
             <h1>Membership</h1>
             <p>
             Thank you for showing your interest in the EAA!

@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
+import $ from 'jquery';
+
 import '../Article/Article.css';
+import changePageContent from '../Article/Article.js';
 
-import membership from './text_membership';
+import sponsors from './text_sponsors';
 
-export class Membership extends Component {
+export class Sponsor extends Component {
   constructor(props) {
     super(props);
-    this.state = { pageContent: membership };
+    this.state = { pageContent: sponsors };
   }
-  
 
   render () {
     return (

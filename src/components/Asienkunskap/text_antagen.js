@@ -1,4 +1,4 @@
-export default function välkommenTillAsienkunskap() {
+export default function text() {
     return(
         <article>
             <h1>Välkommen</h1>

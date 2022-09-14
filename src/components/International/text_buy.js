@@ -1,4 +1,4 @@
-export default function asienkunskapsGuiden() {
+export default function travelGuide() {
     return(
         <article>
             <h1>Membership</h1>

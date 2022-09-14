@@ -2,15 +2,18 @@ import React, { Component } from 'react';
 import $ from 'jquery';
 
 import '../Article/Article.css';
-import changePageContent from '../Article/Article';
+import changePageContent from '../Article/Article.js';
 
-import välkommenTillAsienkunskap from './välkommen-till-asienkunskap'
-import asienkunskapsGuiden from './asienkunskaps-guiden'
+import antagen from './text_antagen';
+import plugg from './text_plugg';
+import tekken from './text_tekken';
+import efter from './text_efter';
+
 
 export class Asienkunskap extends Component {
   constructor(props) {
     super(props);
-    this.state = { pageContent: välkommenTillAsienkunskap };
+    this.state = { pageContent: antagen };
   }
 
   render () {
@@ -18,8 +21,10 @@ export class Asienkunskap extends Component {
       <div class="article">
         <nav class="sidenav gray-bg">
           <ul>
-            <li id="firstPage" class="redOnHover selected" onClick={ () => changePageContent(this, välkommenTillAsienkunskap, 'firstPage') }>Välkommen</li>
-            <li id="seccondPage" class="redOnHover" onClick={() => { changePageContent(this, asienkunskapsGuiden, 'seccondPage'); } }>Asienkunskaps Guiden</li>
+            <li id="firstPage" class="selected" onClick={ () => changePageContent(this, antagen, 'firstPage') }>Antagen</li>
+            <li id="seccondPage" onClick={() => { changePageContent(this, plugg, 'seccondPage'); } }>Studietips</li>
+            <li id="thirdPage" onClick={() => { changePageContent(this, tekken, 'thirdPage'); } }>Fadderiet Tekken</li>
+            <li id="fourthPage" onClick={() => { changePageContent(this, efter, 'fourthPage'); } }>Efter Asienkunskap</li>
           </ul>
         </nav>
 

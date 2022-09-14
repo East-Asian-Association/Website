@@ -1,7 +1,7 @@
-export default function buyingThingsInLinköping() {
+export default function welcomeToSweden() {
     return(
-        <article class="article-content">
-            <h1>Köp saker!!!!</h1>
+        <article>
+            <h1>Membership</h1>
             <p>
             Thank you for showing your interest in the EAA!
             <br></br>

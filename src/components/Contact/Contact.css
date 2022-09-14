@@ -3,11 +3,16 @@
     grid-template-columns: 1fr 1fr;
     column-gap: 20px;
     row-gap: 20px;
+    padding: 40px 0;
+    max-width: 880px;
+    margin: auto;
 }
 
 .member {
     background-color: var(--red);
     padding: 20px; 
+    width: 400px;
+    margin: auto;
 }
 
 .member-flex {
@@ -20,28 +25,29 @@
 }
 
 .member-photo {
-    height: 120px;
+    height: 100px;
 }
 
 .member p {
-    font-size: 18px;
+    font-size: 18px !important;
     margin: 0 !important;
+    float: bottom;
 }
 
 .member h2 {
-    font-size: 26px;
+    font-size: 22px;
 }
 
 .member h3 {
-    font-size: 19px;
-    margin: 6px 0 20px 0;
+    font-size: 18px;
+    margin: 6px 0 0 0;
 }
 
 .member img {
     height: 100%;
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 1000px) {
     .members {
         grid-template-columns: 1fr;
         max-width: 500px;
