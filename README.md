@@ -7,4 +7,4 @@
 1. Clone the github repo ```git clone https://github.com/East-Asian-Association/Website.git EAAWebsite```
 2. Change directory ```cd EAAWebsite```
 3. Update node packages ```npm update```
-4. Start node scripts ```npm run start```
+4. Start node scripts ```npm run build```
