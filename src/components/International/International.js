@@ -26,7 +26,9 @@ export class International extends Component {
           </ul>
         </nav>
 
-        { this.state.pageContent() }
+        <article class="article-content">
+          { this.state.pageContent() }
+        </article>
       </div>
     );
   }
