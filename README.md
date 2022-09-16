@@ -1,1 +1,10 @@
-The webiste of East Asian Association at Linköping University
+# The official website of East Asian Association
+
+## Requirements 
+- npm 8.11.0
+
+## Instructions for Linux
+1. Clone the github repo ```git clone https://github.com/East-Asian-Association/Website.git EAAWebsite```
+2. Change directory ```cd EAAWebsite```
+3. Update node packages ```npm update```
+4. Start the node scripts ```npm run start```
