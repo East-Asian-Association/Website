@@ -1,7 +1,7 @@
 # The official website of East Asian Association
 
 ## Requirements 
-- npm 8.11.0
+- npm >= 8.11.0
 
 ## Instructions for Linux
 1. Clone the github repo ```git clone https://github.com/East-Asian-Association/Website.git EAAWebsite```
