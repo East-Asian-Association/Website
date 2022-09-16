@@ -1,8 +1,8 @@
 ﻿.article {
-  max-width: 1150px;
   display: flex;
   margin: auto;
   padding: 0 20px;
+  max-width: 1150px;
 } 
 
 /*
@@ -12,14 +12,15 @@
 .article-content {
   display: block;
   min-height: calc(100vh - 360px);
-  padding: 40px 40px;
+  padding: 60px 40px;
   font-family: Liu;
   width: 100%;
+  margin: auto;
 }
 
 .article-content p {
   font-size: 20px;
-  line-height: 1.9;
+  line-height: 1.5;
   margin: 10px 0 24px 0;
 }
 
@@ -43,7 +44,7 @@
 .sidenav {
   display: inline-block;
   margin: 40px 20px;
-  width: 300px;
+  width: 250px;
 }
 
 .sidenav ul {

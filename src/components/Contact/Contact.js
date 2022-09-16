@@ -9,6 +9,10 @@ export class Contact extends Component {
   render () {
     return (
       <div class="article">
+        <nav class="sidenav gray-bg">
+          <ul>
+          </ul>
+        </nav>
         <div class="article-content">
           <div class="members">
             {
