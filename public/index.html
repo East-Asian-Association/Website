@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿<DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -21,6 +21,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+
     <title>East_Asian_Association</title>
   </head>
   <body>
@@ -28,6 +29,17 @@
       You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
+
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <!-- babel is required in order to parse JSX -->
+  
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <!-- import react.js -->
+  
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"> </script>
+    <!-- import react-dom.js -->
+  
+    <script type="text/babel" src="App.js"></script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
