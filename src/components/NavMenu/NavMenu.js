@@ -35,34 +35,34 @@ export class NavMenu extends Component {
     return (
       <header class="box-shadow white-bg">
         <nav class="navbar">
-            <a href="/" class="navbar-logo-wrapper">
-              <img class="navbar-logo" src="/img/navbar-logo.svg"/>
+            <a href={process.env.PUBLIC_URL} class="navbar-logo-wrapper">
+              <img class="navbar-logo" src="./img/navbar-logo.svg"/>
             </a>
 
             <div class="navbar-spacer"/>
 
             <button class="navbar-toggle" onClick={this.toggleNavbar}>
-              <img class="navbar-toggle-icon" src="/img/navbar-toggle-icon.svg"/>
+              <img class="navbar-toggle-icon" src="./img/navbar-toggle-icon.svg"/>
             </button>
 
             <ul class="black white-bg">
                 <li>
-                    <a class="redOnHover" href="/about">About</a>
+                    <a class="redOnHover" href={process.env.PUBLIC_URL + '/about'}>About</a>
                 </li>
                 <li>
-                    <a class="redOnHover" href="/contact">Contact</a>
+                    <a class="redOnHover" href={process.env.PUBLIC_URL + '/contact'}>Contact</a>
                 </li>
                 <li>
-                    <a class="redOnHover" href="/sponsors">Sponsors</a>
+                    <a class="redOnHover" href={process.env.PUBLIC_URL + '/sponsors'}>Sponsors</a>
                 </li>
                 <li>
-                    <a class="redOnHover" href="/membership">Membership</a>
+                    <a class="redOnHover" href={process.env.PUBLIC_URL + '/membership'}>Membership</a>
                 </li>
                 <li>
-                    <a class="redOnHover" href="/asienkunskap">Asienkunskap</a>
+                    <a class="redOnHover" href={process.env.PUBLIC_URL + '/asienkunskap'}>Asienkunskap</a>
                 </li>
                 <li>
-                    <a class="redOnHover" href="/international-students">International Students</a>
+                    <a class="redOnHover" href={process.env.PUBLIC_URL + '/international-students'}>International Students</a>
                 </li>
             </ul>
         </nav>

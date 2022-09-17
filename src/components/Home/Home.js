@@ -15,7 +15,7 @@ export class Home extends Component {
     return (
       <div>
         <div class="banner white">
-          <div class="banner-background" style={{ backgroundImage: "url('/img/banner.jpg')" }}></div>
+          <div class="banner-background" style={{ backgroundImage: "url('./img/banner.jpg')" }}></div>
           <div class="banner-text centered">
             <p>Welcome To the</p>
             <p class="large"><b>EAST ASIAN</b> ASSOCIATION</p>
@@ -27,7 +27,7 @@ export class Home extends Component {
           <div class="summary-item white-bg black"> 
             <div class="summary-item-container">
               <div class="summary-image">
-                <img src="/img/cc-fika.jpg" alt=""></img>
+                <img src="./img/cc-fika.jpg" alt=""></img>
               </div>
               <div class="summary-spacer"></div>
               <div class="summary-text">
@@ -47,14 +47,14 @@ export class Home extends Component {
               </div>
               <div class="summary-spacer"></div>
               <div class="summary-image">
-                <img src="/img/asienkunskap.jpg" alt=""></img>
+                <img src="./img/asienkunskap.jpg" alt=""></img>
               </div>          
             </div>
           </div>
           <div class="summary-item white-bg black"> 
             <div class="summary-item-container">
               <div class="summary-image">
-                <img src="/img/cc-fika.jpg" alt=""></img>
+                <img src="./img/cc-fika.jpg" alt=""></img>
               </div>
               <div class="summary-spacer"></div>
               <div class="summary-text">

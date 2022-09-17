@@ -3,7 +3,7 @@ import { Route } from 'react-router';
 
 import './site.css'
 import { Layout } from './components/Layout/Layout';
-import { Home } from './components/Home';
+import { Home } from './components/Home/Home';
 import { Contact } from './components/Contact/Contact';
 
 import { Membership } from './components/Membership/Membership';
@@ -18,13 +18,13 @@ export default class App extends Component {
   render () {
     return (
       <Layout>
-        <Route exact path='/' component={Home} />
-        <Route exact path='/about' component={About} />
-        <Route exact path='/sponsors' component={Sponsor} />
-        <Route exact path='/contact' component={Contact} />
-        <Route exact path='/membership' component={Membership}   />
-        <Route exact path='/asienkunskap' component={Asienkunskap}   />
-        <Route exact path='/international-students' component={International} />
+        <Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
+        <Route exact path={process.env.PUBLIC_URL + '/about'} component={About} />
+        <Route exact path={process.env.PUBLIC_URL + '/sponsors'} component={Sponsor} />
+        <Route exact path={process.env.PUBLIC_URL + '/contact'} component={Contact} />
+        <Route exact path={process.env.PUBLIC_URL + '/membership'} component={Membership}   />
+        <Route exact path={process.env.PUBLIC_URL + '/asienkunskap'} component={Asienkunskap}   />
+        <Route exact path={process.env.PUBLIC_URL + '/international-students'} component={International} />
       </Layout>
     );
   }

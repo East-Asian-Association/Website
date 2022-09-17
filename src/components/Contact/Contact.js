@@ -25,7 +25,7 @@ export class Contact extends Component {
                       <p>E-mail: {member.gmail}</p>
                     </div>
                     <div class="member-photo">
-                        <img src="/img/profile.png"></img>
+                        <img src="./img/profile.png"></img>
                     </div>
                   </div>
                 </div>
