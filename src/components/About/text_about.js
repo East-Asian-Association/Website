@@ -1,23 +1,23 @@
 export default function text() {
   return(
       <article>
-          <h1>Membership</h1>
+          <h1>About</h1>
           <p>
-          Thank you for showing your interest in the EAA!
-          <br></br>
-          A membership of the EAA costs 20 SEK and can be bought during our Conversation Corners or at most of our events. It is valid for a whole school year, and is required if you want to participate in our events. This is what you get when you become a member:
+          The East Asian Association, 林雪平大學東亞協會 (romaji: rinshōpin daigaku tōa kyōkai, pinyin: lín xuě píng dà xué dōng yà xié huì, hangul:임설평 대학 동아 협회) 
+          or EAA for short, is a student association at Linköping University that was founded the 28th of April 2009 as a collaboration by and for students interested in East Asia. 
+          Today the association has around 200 members from all over the world, but primarily Sweden, Japan, China and Korea.
           </p>
-          <ul>
-          <li>Free fika at every Conversation Corner</li>
-          <li>Discounts on tickets for our dinner parties</li>
-          <li>Free or discounted food and/or drinks at some of our smaller events*</li>
-          <li>The ability to sign up for our newsletters</li>
-          <li>…and more!</li>
-          </ul>
+          
           <p>        
-          You are very welcome at our Conversation Corners even if you are not a paying member, but if you plan to visit regularly, we would very much appreciate if you become a member to help us expand.
-          <br></br>
-          <i><b>*If so, it will be mentioned before the event.</b></i>
+          We host a lot of events every year where some of the events are typical Swedish student life events and others are more focused on language and cultural exchange. 
+          We encourage everyone to join in these events and have as much fun as possible! If you are interested you can find more information under 
+          <b> Events</b>.
+          </p>
+          
+          <p> 
+          One of the main responsibilities for EAA is to host welcoming activities for new Swedish students coming to Linköping University to study Mandarin or Japanese combined with Engineering. 
+          (Sadly there is currently no program for studying the Korean language at Linköping University, 
+          but it is still a popular language among our members!)
           </p>
       </article>
   );

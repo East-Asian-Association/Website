@@ -21,9 +21,9 @@ export class About extends Component {
         <nav class="sidenav gray-bg">
           <ul>
             <li id="firstPage" class="selected" onClick={ () => changePageContent(this, about, 'firstPage') }>About</li>
-            <li id="seccondPage" onClick={() => { changePageContent(this, styret, 'seccondPage'); } }>Styret</li>
-            <li id="thirdPage" onClick={() => { changePageContent(this, tekken, 'thirdPage'); } }>Tekken</li>
-            <li id="fourthPage" onClick={() => { changePageContent(this, events, 'fourthPage'); } }>Events</li>
+            <li id="secondPage" onClick={() => { changePageContent(this, events, 'secondPage'); } }>Events</li>
+            <li id="thirdPage" onClick={() => { changePageContent(this, styret, 'thirdPage'); } }>Styret</li>
+            <li id="forthPage" onClick={() => { changePageContent(this, tekken, 'forthPage'); } }>Tekken</li>                    
           </ul>
         </nav>
 
