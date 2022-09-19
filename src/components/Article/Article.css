@@ -22,7 +22,15 @@
   font-family: Liu-Light;
   font-size: 20px;
   line-height: 2em;
-  margin: 10px 0 1.5em 0;
+  margin: 10px 0 1em 0;
+}
+
+.chinese {
+  font-size: 17px;
+}
+
+.clarification {
+  font-size: 16px !important;
 }
 
 .article-content h1 {

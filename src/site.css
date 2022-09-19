@@ -119,11 +119,6 @@ body {
   background-color: var(--gray) !important;
 }
 
-.chinese {
-  font-family: SentyTang;
-  font-size: 26px;
-}
-
 b {
   font-family: Liu;
   font-weight: bold;
