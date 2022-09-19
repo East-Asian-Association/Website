@@ -46,6 +46,18 @@
   margin: 0;
 }
 
+.article-content a {
+  text-decoration: none;
+  color: black;
+}
+.article-content a:visited {
+  background-color: none;
+}
+.article-content a:hover {
+  text-decoration: underline;
+}
+
+
 /*
 / Side Nav
 */
