@@ -32,9 +32,9 @@ export class Home extends Component {
               <div class="summary-spacer"></div>
               <div class="summary-text">
                 <h1 class="red">Conversation Corner</h1>
-                <p>CC is a place for <span class="red bold">Cultural Exchange</span>, <span class="red bold">Language Learning</span> and making new <span class="red bold">Friends</span>.</p>
-                <p>We meet every <span class="red bold">Tuesday</span> and <span class="red bold">Thursday</span> at <span class="red bold">17:15</span> and all students at Linköping University are welcome! </p>
-                <p><span class="red bold">Free Fika</span> is also available for all our members!</p>
+                <p>CC is a place for <b class="red">Cultural Exchange</b>, <b class="red">Language Learning</b> and making new <b class="red">Friends</b>.</p>
+                <p>We meet every <b class="red">Tuesday</b> and <b class="red bold">Thursday</b> at <b class="red">17:15</b> and all students at Linköping University are welcome! </p>
+                <p><b class="red">Free Fika</b> is also available for all our members!</p>
               </div> 
             </div>                    
           </div>
@@ -42,8 +42,8 @@ export class Home extends Component {
             <div class="summary-item-container">
               <div class="summary-text">
                 <h1>Asienkunskap</h1>
-                <p>EAA is a sektion at Linköping University responsible for the program <span class="bold">Asienkunskap</span>.</p>
-                <p>The program covers one year of language studies in either <span class="bold">Japanese</span> or <span class="bold">Chinese</span>, aswell as  <span class="bold">South-East Asian</span> <span class="bold">History</span> and <span class="red bold">Politics</span></p>
+                <p>EAA is a sektion at Linköping University responsible for the program <b>Asienkunskap</b>.</p>
+                <p>The program covers one year of language studies in either <b>Japanese</b> or <b>Chinese</b>, aswell as  <b>South-East Asian</b> <b>History</b> and <b>Politics</b></p>
               </div>
               <div class="summary-spacer"></div>
               <div class="summary-image">
@@ -59,9 +59,9 @@ export class Home extends Component {
               <div class="summary-spacer"></div>
               <div class="summary-text">
                 <h1 class="red">Sponsorships</h1>
-                <p>CC is a place for <span class="red bold">Cultural Exchange</span>, <span class="red bold">Language Learning</span> and making new <span class="red bold">Friends</span>.</p>
-                <p>We meet every <span class="red bold">Tuesday</span> and <span class="red bold">Thursday</span> at <span class="red bold">17:15</span> and all students at Linköping University are welcome! </p>
-                <p><span class="red bold">Free Fika</span> is also available for all our members!</p>
+                <p>CC is a place for <b class="red">Cultural Exchange</b>, <b class="red">Language Learning</b> and making new <b class="red">Friends</b>.</p>
+                <p>We meet every <b class="red">Tuesday</b> and <b class="red">Thursday</b> at <b class="red">17:15</b> and all students at Linköping University are welcome! </p>
+                <p><b class="red">Free Fika</b> is also available for all our members!</p>
               </div> 
             </div>                    
           </div>

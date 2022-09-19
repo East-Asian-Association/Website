@@ -78,19 +78,15 @@
   display: block;
 }
 
-.summary-text {
-  font-family: Liu;
-}
-
 .summary-text h1 {
   padding-top: 10px;
   font-size: 32px;
-  font-weight: bold;
 }
 
 .summary-text p {
   font-size: 20px;
   font-weight: normal;
+  font-family: Liu-Light;
 }
 
 .summary-spacer {

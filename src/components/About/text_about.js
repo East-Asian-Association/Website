@@ -3,9 +3,9 @@ export default function text() {
       <article>
           <h1>About</h1>
           <p>
-          The East Asian Association, 林雪平大學東亞協會 (romaji: rinshōpin daigaku tōa kyōkai, pinyin: lín xuě píng dà xué dōng yà xié huì, hangul:임설평 대학 동아 협회) 
+          The <b>East Asian Association</b>, <span class="chinese">林雪平大學東亞協會</span> (romaji: rinshōpin daigaku tōa kyōkai, pinyin: lín xuě píng dà xué dōng yà xié huì, hangul:임설평 대학 동아 협회) 
           or EAA for short, is a student association at Linköping University that was founded the 28th of April 2009 as a collaboration by and for students interested in East Asia. 
-          Today the association has around 200 members from all over the world, but primarily Sweden, Japan, China and Korea.
+          Today the association has around <b>200 members</b> from all over the world, but primarily Sweden, Japan, China and Korea.
           </p>
           
           <p>        

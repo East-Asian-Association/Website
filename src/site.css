@@ -20,21 +20,12 @@
 }
 
 @font-face {
-  font-family: 'Liu';
+  font-family: 'Liu-Light';
   font-style: normal;
-  font-weight: light;
+  font-weight: normal;
   src: local(''),
        url('./fonts/KorolevLiU-Light.woff2') format('woff2'),
        url('./fonts/KorolevLiU-Light.ttf') format('ttf');
-}
-
-@font-face {
-  font-family: 'Liu';
-  font-style: normal;
-  font-weight: bold;
-  src: local(''),
-       url('./fonts/KorolevLiU-Bold.woff2') format('woff2'),
-       url('./fonts/KorolevLiU-Bold.ttf') format('ttf');
 }
 
 @font-face {
@@ -128,8 +119,14 @@ body {
   background-color: var(--gray) !important;
 }
 
-.bold {
-  font-weight: 700;
+.chinese {
+  font-family: SentyTang;
+  font-size: 26px;
+}
+
+b {
+  font-family: Liu;
+  font-weight: bold;
 }
 
 .redOnHover {

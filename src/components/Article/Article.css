@@ -11,7 +11,7 @@
 
 .article-content {
   display: block;
-  min-height: calc(100vh - 360px);
+  min-height: calc(100vh - 580px);
   padding: 60px 40px;
   font-family: Liu;
   width: 100%;
@@ -19,9 +19,10 @@
 }
 
 .article-content p {
+  font-family: Liu-Light;
   font-size: 20px;
-  line-height: 1.5;
-  margin: 10px 0 24px 0;
+  line-height: 2em;
+  margin: 10px 0 1.5em 0;
 }
 
 .article-content h1 {
