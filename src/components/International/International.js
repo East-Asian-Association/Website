@@ -7,6 +7,7 @@ import buy from './text_buy';
 import linkoping from './text_linkoping';
 import travel from './text_travel';
 import tickets from './text_tickets';
+import studying from './text_studying_swedish'
 
 export class International extends Component {
   constructor(props) {
@@ -23,6 +24,7 @@ export class International extends Component {
             <li id="seccondPage" onClick={() => changePageContent(this, buy, 'seccondPage') }>Buying things in Linköping</li>
             <li id="thirdPage" onClick={() => changePageContent(this, travel, 'thirdPage') }>Travel guide</li>
             <li id="fourthPage" onClick={() => changePageContent(this, tickets, 'fourthPage') }>Event Tickets</li>
+            <li id="fifthPage" onClick={() => changePageContent(this, studying, 'fifthPage') }>Studying Swedish</li>
           </ul>
         </nav>
 
