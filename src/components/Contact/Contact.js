@@ -8,23 +8,23 @@ export class Contact extends Component {
 
   render () {
     return (
-      <div class="article">
-        <nav class="sidenav gray-bg">
+      <div className="article">
+        <nav className="sidenav gray-bg">
           <ul>
           </ul>
         </nav>
-        <div class="article-content">
-          <div class="members">
+        <div className="article-content">
+          <div className="members">
             {
               contactInfo.members.map((member) => 
-                <div class="member">
-                  <div class="member-flex">
-                    <div class="member-info">
+                <div className="member">
+                  <div className="member-flex">
+                    <div className="member-info">
                       <h2>{member.post}</h2>
                       <h3>{member.name}</h3>
                       <p>E-mail: {member.gmail}</p>
                     </div>
-                    <div class="member-photo">
+                    <div className="member-photo">
                         <img src="./img/profile.png"></img>
                     </div>
                   </div>

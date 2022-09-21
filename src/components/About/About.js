@@ -17,17 +17,17 @@ export class About extends Component {
 
   render () {
     return (
-      <div class="article">
-        <nav class="sidenav gray-bg">
+      <div className="article">
+        <nav className="sidenav gray-bg">
           <ul>
-            <li id="firstPage" class="selected" onClick={ () => changePageContent(this, about, 'firstPage') }>About</li>
+            <li id="firstPage" className="selected" onClick={ () => changePageContent(this, about, 'firstPage') }>About</li>
             <li id="secondPage" onClick={() => { changePageContent(this, events, 'secondPage'); } }>Events</li>
             <li id="thirdPage" onClick={() => { changePageContent(this, styret, 'thirdPage'); } }>Styret</li>
             <li id="forthPage" onClick={() => { changePageContent(this, tekken, 'forthPage'); } }>Tekken</li>                    
           </ul>
         </nav>
 
-        <article class="article-content">
+        <article className="article-content">
           { this.state.pageContent() }
         </article>
       </div>

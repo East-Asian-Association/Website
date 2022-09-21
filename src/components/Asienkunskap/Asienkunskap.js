@@ -18,17 +18,17 @@ export class Asienkunskap extends Component {
 
   render () {
     return (
-      <div class="article">
-        <nav class="sidenav gray-bg">
+      <div className="article">
+        <nav className="sidenav gray-bg">
           <ul>
-            <li id="firstPage" class="selected" onClick={ () => changePageContent(this, antagen, 'firstPage') }>Antagen</li>
+            <li id="firstPage" className="selected" onClick={ () => changePageContent(this, antagen, 'firstPage') }>Antagen</li>
             <li id="seccondPage" onClick={() => { changePageContent(this, plugg, 'seccondPage'); } }>Studietips</li>
             <li id="thirdPage" onClick={() => { changePageContent(this, tekken, 'thirdPage'); } }>Fadderiet Tekken</li>
             <li id="fourthPage" onClick={() => { changePageContent(this, efter, 'fourthPage'); } }>Efter Asienkunskap</li>
           </ul>
         </nav>
 
-        <article class="article-content">
+        <article className="article-content">
           { this.state.pageContent() }
         </article>
       </div>

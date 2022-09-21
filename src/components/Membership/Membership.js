@@ -12,8 +12,8 @@ export class Membership extends Component {
 
   render () {
     return (
-      <div class="article">
-        <article class="article-content">
+      <div className="article">
+        <article className="article-content">
           { this.state.pageContent() }
         </article>
       </div>

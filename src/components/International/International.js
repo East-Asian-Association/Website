@@ -17,10 +17,10 @@ export class International extends Component {
 
   render () {
     return (
-      <div class="article">
-        <nav class="sidenav gray-bg">
+      <div className="article">
+        <nav className="sidenav gray-bg">
           <ul>
-            <li id="firstPage" class="selected" onClick={() => changePageContent(this, buy, 'firstPage') }>Welcome to Sweden</li>
+            <li id="firstPage" className="selected" onClick={() => changePageContent(this, buy, 'firstPage') }>Welcome to Sweden</li>
             <li id="seccondPage" onClick={() => changePageContent(this, buy, 'seccondPage') }>Buying things in Linköping</li>
             <li id="thirdPage" onClick={() => changePageContent(this, travel, 'thirdPage') }>Travel guide</li>
             <li id="fourthPage" onClick={() => changePageContent(this, tickets, 'fourthPage') }>Event Tickets</li>
@@ -28,7 +28,7 @@ export class International extends Component {
           </ul>
         </nav>
 
-        <article class="article-content">
+        <article className="article-content">
           { this.state.pageContent() }
         </article>
       </div>
