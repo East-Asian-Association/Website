@@ -19,7 +19,7 @@ export default class App extends Component {
     return (
       <Layout>
         <Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
-        <Route path={process.env.PUBLIC_URL + '/about'} component={About} />
+        <Route exact path={process.env.PUBLIC_URL + '/about'} component={About} />
         <Route path={process.env.PUBLIC_URL + '/sponsors'} component={Sponsor} />
         <Route path={process.env.PUBLIC_URL + '/contact'} component={Contact} />
         <Route path={process.env.PUBLIC_URL + '/membership'} component={Membership}   />
