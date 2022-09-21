@@ -2,7 +2,7 @@
   "name": "east_asian_association",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/eaa",
+  "homepage": "",
   "dependencies": {
     "jquery": "^3.6.1",
     "react": "^17.0.2",
@@ -15,9 +15,9 @@
     "typescript": "^4.2.4"
   },
   "scripts": {
-    "start": "SUB_DOMAIN=homepage react-scripts start",
-    "build": "SUB_DOMAIN=homepage react-scripts build",
-    "eject": "SUB_DOMAIN=homepage react-scripts eject"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
