@@ -18,7 +18,7 @@ export default class App extends Component {
   render () {
     return (
       <Layout>
-        <Route path='' component={Home} />
+        <Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
         <Route path={process.env.PUBLIC_URL + '/about'} component={About} />
         <Route path={process.env.PUBLIC_URL + '/sponsors'} component={Sponsor} />
         <Route path={process.env.PUBLIC_URL + '/contact'} component={Contact} />
