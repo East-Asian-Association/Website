@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './NavMenu.css';
 import $ from "jquery";
+import { Link } from 'react-router-dom'
 
 export class NavMenu extends Component {
   static displayName = NavMenu.name;
@@ -47,22 +48,22 @@ export class NavMenu extends Component {
 
             <ul className="black white-bg">
                 <li>
-                    <a className="redOnHover" href={process.env.PUBLIC_URL + '/about'}>About</a>
+                    <Link className="redOnHover" to={process.env.PUBLIC_URL + '/about'}>About</Link>
                 </li>
                 <li>
-                    <a className="redOnHover" href={process.env.PUBLIC_URL + '/contact'}>Contact</a>
+                    <Link className="redOnHover" to={process.env.PUBLIC_URL + '/contact'}>Contact</Link>
                 </li>
                 <li>
-                    <a className="redOnHover" href={process.env.PUBLIC_URL + '/sponsors'}>Sponsors</a>
+                    <Link className="redOnHover" to={process.env.PUBLIC_URL + '/sponsors'}>Sponsors</Link>
                 </li>
                 <li>
-                    <a className="redOnHover" href={process.env.PUBLIC_URL + '/membership'}>Membership</a>
+                    <Link className="redOnHover" to={process.env.PUBLIC_URL + '/membership'}>Membership</Link>
                 </li>
                 <li>
-                    <a className="redOnHover" href={process.env.PUBLIC_URL + '/asienkunskap'}>Asienkunskap</a>
+                    <Link className="redOnHover" to={process.env.PUBLIC_URL + '/asienkunskap'}>Asienkunskap</Link>
                 </li>
                 <li>
-                    <a className="redOnHover" href={process.env.PUBLIC_URL + '/international-students'}>International Students</a>
+                    <Link className="redOnHover" to={process.env.PUBLIC_URL + '/international-students'}>International Students</Link>
                 </li>
             </ul>
         </nav>
