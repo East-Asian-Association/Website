@@ -2,7 +2,7 @@
   "name": "east_asian_association",
   "version": "0.1.0",
   "private": true,
-  "homepage": "",
+  "homepage": "/eaa",
   "dependencies": {
     "jquery": "^3.6.1",
     "react": "^17.0.2",
