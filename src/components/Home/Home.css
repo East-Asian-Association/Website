@@ -4,6 +4,7 @@
   height: 900px;
   overflow: hidden;
   position: relative;
+  background-color: #000;
 }
 
 .banner-background {
@@ -45,6 +46,7 @@
   font-weight: bold;
   font-size: 20px;
   margin: auto;
+  text-shadow: none;
 }
 
 .summary {
