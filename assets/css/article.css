@@ -17,7 +17,7 @@
 
 .article-content {
   display: block;
-  min-height: calc(100vh - 580px);
+  min-height: calc(100vh - 530px);
   margin: auto;
   padding: 4px;
 }
