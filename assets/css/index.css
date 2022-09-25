@@ -24,24 +24,35 @@
   margin: 0;
 }
 
-.banner-text h2 {
+.banner-text #top {
+  font-size: 65px;
+  margin: 0;
+}
+
+.banner-text #middle {
   font-size: 75px;
   margin: 0;
 }
 
-.banner-text p {
-  font-size: 55px;
+.banner-text #bottom {
+  font-size: 35px;
   margin: 0;
 }
 
 @media (max-width: 950px) {
-  .banner-text h2 {
-    font-size: 40px;
-    white-space: normal;
-    max-width: 300px;
+  .banner-text #top {
+    font-size: 30px;
+    margin: 0;
   }
-  .banner-text p {
-    font-size: 28px;
+  
+  .banner-text #middle {
+    font-size: 35px;
+    margin: 0;
+  }
+  
+  .banner-text #bottom {
+    font-size: 18px;
+    margin: 0;
   }
 }
 
@@ -53,6 +64,7 @@
 
 .banner-button p {
   padding: 8px 24px 8px 24px;
+  margin: 0;
   font-family: Liu;
   font-weight: bold;
   font-size: 20px;
