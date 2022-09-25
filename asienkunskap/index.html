@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="theme-color" content="#000000" />
+    
+    <title>East Asian Association</title>
+
+    <!--- files for all pages --->
+    <link rel="/inhysningar/eastasian/manifest" href="manifest.json" />
+    <link rel="/inhysningar/eastasian/shortcut icon" href="favicon.ico" />
+
+    <link href="/inhysningar/eastasian/site.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    
+    <script>
+      $(document).ready(function(){
+        $("#header").load("/inhysningar/eastasian/assets/html/header.html"); 
+        $("#footer").load("/inhysningar/eastasian/assets/html/footer.html"); 
+      });
+    </script>
+
+    <!--- files for this page --->
+    <link href="/inhysningar/eastasian/assets/css/article.css" rel="stylesheet" />
+    <script src="/inhysningar/eastasian/assets/js/article.js"> </script>
+  </head>
+  
+  <body>  
+    <!--- header will be loaded in from header.js here --->
+    <header id="header" class="box-shadow white-bg"></header>
+
+    <!--- pagecontent goes here --->
+    <main class="main">
+    <div class="article">
+        <nav class="sidenav gray-bg">
+            <ul>
+            <li id="asienkunskap" onclick="location.href='./?page=asienkunskap'">Asienkunskap</li>
+            <li id="antagen" onclick="location.href='./?page=antagen'">Antagen</li>
+            <li id="mottagning" onclick="location.href='./?page=mottagning'">Mottagnings Guide</li>
+            <li id="resurser" onclick="location.href='./?page=resurser'">Studie Resurser</li>
+            <li id="efter" onclick="location.href='./?page=efter'">Efter Asienkunskap</li>                    
+            </ul>
+        </nav>
+
+        <article id="article-content" class="article-content"></article>
+      </div>
+    </main>
+
+    <!--- footer will be loaded in from footer.js here --->
+    <footer id="footer" class="gray-bg"></footer>
+
+    <script>
+      initPage('asienkunskap');
+    </script>
+  </body>
+</html>
