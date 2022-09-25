@@ -46,7 +46,7 @@
 }
 
 @media (max-width: 500px) {
-    .member h2 {
+    .member p {
         font-size: 3.2vw !important;
         margin: 4vw 0 0 0 !important;
     }
@@ -68,7 +68,7 @@
 }
 
 @media (max-width: 500px) {
-    .member h2 {
+    .member h3 {
         font-size: 3.2vw !important;
     }
 }
