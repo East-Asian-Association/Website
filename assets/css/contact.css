@@ -15,6 +15,12 @@
     border-radius: 4px;
 }
 
+@media (max-width: 500px) {
+    .member {
+        width: 72vw;
+    }
+}
+
 .member-flex {
     display: flex;
 }
@@ -25,7 +31,13 @@
 }
 
 .member-photo {
-    height: 90px;
+    height: 93px;
+}
+
+@media (max-width: 500px) {
+    .member-photo {
+        height: 18.6px;
+    }
 }
 
 .member p {
@@ -33,13 +45,32 @@
     margin: 20px 0 0 0 !important;
 }
 
+@media (max-width: 500px) {
+    .member h2 {
+        font-size: 3.2vw !important;
+        margin: 4vw 0 0 0 !important;
+    }
+}
+
 .member h2 {
     font-size: 20px !important;
+}
+
+@media (max-width: 500px) {
+    .member h2 {
+        font-size: 4vw !important;
+    }
 }
 
 .member h3 {
     font-size: 16px;
     margin: 0px 0 0 0;
+}
+
+@media (max-width: 500px) {
+    .member h2 {
+        font-size: 3.2vw !important;
+    }
 }
 
 .member img {
