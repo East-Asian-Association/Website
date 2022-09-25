@@ -83,6 +83,7 @@
 @media (max-width: 500px) {
   .sidenav {
     width: 100%;
+    margin: 10px 0px 0px 0px;
   }
 }
 
