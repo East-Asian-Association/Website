@@ -19,7 +19,7 @@
   display: block;
   min-height: calc(100vh - 580px);
   margin: auto;
-  padding: 20px;
+  padding: 4px;
 }
 
 @media (max-width: 500px) {
