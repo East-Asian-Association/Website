@@ -39,19 +39,36 @@
   margin: 0;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 850px) {
   .banner-text #top {
-    font-size: 30px;
-    margin: 0;
-  }
-  
-  .banner-text #middle {
     font-size: 35px;
     margin: 0;
   }
   
+  .banner-text #middle {
+    font-size: 45px;
+    margin: 0;
+  }
+  
   .banner-text #bottom {
-    font-size: 18px;
+    font-size: 20px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .banner-text #top {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .banner-text #middle {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  .banner-text #bottom {
+    font-size: 16px;
     margin: 0;
   }
 }
