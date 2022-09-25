@@ -8,6 +8,7 @@
 @media (max-width: 500px) {
   .article {
     display: block;
+    padding: 20px 20px;
   }
 }
 
