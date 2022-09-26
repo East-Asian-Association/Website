@@ -51,6 +51,9 @@
     <footer id="footer" class="gray-bg"></footer>
 
     <script>
+      window.addEventListener('popstate', function(event) {
+        initPage('sponsors');
+      });
       initPage('sponsors');
     </script>
   </body>
