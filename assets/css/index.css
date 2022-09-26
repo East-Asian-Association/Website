@@ -124,7 +124,7 @@
 
 @media (max-width: 500px) {
   .summary-item {
-    padding: 6vw 5vw;
+    padding: 6vw 4vw;
   }
 }
 
@@ -183,7 +183,7 @@
 
 @media (max-width: 500px) {
   .summary-text {
-    width: 92%;
+    width: 87%;
     margin: auto;
   }
   .summary-text p {
