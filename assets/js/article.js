@@ -1,7 +1,8 @@
-function changePageContent(id) 
+function changePageContent(page) 
 {
-    $('#article-content').load(id + '.html');
-    $('.sidenav li').each(function() { $(this).removeClass('selected') }); $('#' + id).addClass('selected');
+    $('#article-content').load(page + '.html');
+    $('.sidenav li').each(function() { $(this).removeClass('selected') }); $('#' + page).addClass('selected');
+    history.pushState({}, null, window.location.href + "?page=" + page);
 };
 
 function initPage(defaultId) {
@@ -10,5 +11,6 @@ function initPage(defaultId) {
     if ($('#' + page).length == 0)
       page = defaultId;
       
-    changePageContent(page, page + '.html');
+    $('#article-content').load(page + '.html');
+    $('.sidenav li').each(function() { $(this).removeClass('selected') }); $('#' + page).addClass('selected');
 }
