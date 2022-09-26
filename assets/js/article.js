@@ -2,7 +2,9 @@ function changePageContent(page)
 {
     $('#article-content').load(page + '.html');
     $('.sidenav li').each(function() { $(this).removeClass('selected') }); $('#' + page).addClass('selected');
-    history.pushState({}, null, window.location.href + "?page=" + page);
+
+    var newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname + "?page=" + page;
+    history.pushState({path:newUrl}, null, newUrl);
 };
 
 function initPage(defaultId) {
