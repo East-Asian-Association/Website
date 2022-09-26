@@ -53,9 +53,10 @@
     <footer id="footer" class="gray-bg"></footer>
 
     <script>
-      window.onhashchange = function() {
+      window.addEventListener('popstate', function(event) {
         initPage('asienkunskap');
-      }
+      });
+      
       initPage('asienkunskap');
     </script>
   </body>
