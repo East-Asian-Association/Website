@@ -29,18 +29,18 @@
 }
 
 .banner-text #bottom {
-  font-size: 35px;
+  font-size: 55px;
   margin: 0;
 }
 
 @media (max-width: 900px) {
   .banner-text #top {
-    font-size: 35px;
+    font-size: 5.56vh;
     margin: 0;
   }
   
   .banner-text #middle {
-    font-size: 8.84vw;
+    font-size: 8.33vw;
     margin: 0;
   }
   
