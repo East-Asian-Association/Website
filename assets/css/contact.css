@@ -86,7 +86,7 @@
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 950px) {
     .members {
         grid-template-columns: 1fr;
     }
