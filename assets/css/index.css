@@ -29,13 +29,13 @@
 }
 
 .banner-text #bottom {
-  font-size: 55px;
+  font-size: 60px;
   margin: 0;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
   .banner-text #top {
-    font-size: 5.56vh;
+    font-size: 5.56vw;
     margin: 0;
   }
   
