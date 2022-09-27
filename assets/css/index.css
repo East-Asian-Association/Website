@@ -1,13 +1,7 @@
 ﻿.banner {
-  height: 750px;
+  height: 70vh;
   overflow: hidden;
   position: relative;
-}
-
-@media (max-width: 950px) {
-  .banner {
-    height: 50vh;
-  }
 }
 
 .banner-background {
@@ -25,7 +19,7 @@
 }
 
 .banner-text #top {
-  font-size: 65px;
+  font-size: 50px;
   margin: 0;
 }
 
