@@ -35,17 +35,17 @@
 
 @media (max-width: 950px) {
   .banner-text #top {
-    font-size: 5.56vw;
+    font-size: 5.26vw;
     margin: 0;
   }
   
   .banner-text #middle {
-    font-size: 8.33vw;
+    font-size: 7.9vw;
     margin: 0;
   }
   
   .banner-text #bottom {
-    font-size: 20px;
+    font-size: 6.32vw;
     margin: 0;
   }
 }
