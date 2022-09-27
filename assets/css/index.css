@@ -1,5 +1,5 @@
 ﻿.banner {
-  height: 900px;
+  height: 750px;
   overflow: hidden;
   position: relative;
 }
@@ -15,7 +15,7 @@
   background-image: url('/inhysningar/eastasian/assets/img/banner.jpg');
   background-size: cover;
   background-position: center;
-  filter: brightness(0.8) blur(4px);
+  filter: brightness(1.5) blur(4px);
 }
 
 .banner-text {
