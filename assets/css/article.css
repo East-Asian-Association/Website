@@ -39,7 +39,7 @@
 .article-content ul {
   font-family: Liu-Light;
   font-size: 18px;
-  margin-bottom: 1em;
+  margin-bottom: 30px;
 }
 
 .article-content li {
@@ -62,9 +62,9 @@
 }
 
 .article-content h2 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: normal;
-  margin: 0;
+  margin: 10px 0 0 0;
 }
 
 .article-content a {
