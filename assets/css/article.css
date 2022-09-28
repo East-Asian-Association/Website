@@ -36,6 +36,12 @@
   margin: 10px 0 1em 0;
 }
 
+.article-content li {
+  font-family: Liu-Light;
+  font-size: 18px;
+  margin: 10px 0 1em 0;
+}
+
 .chinese {
   font-size: 17px;
 }
