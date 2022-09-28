@@ -36,10 +36,14 @@
   margin: 10px 0 1em 0;
 }
 
-.article-content li {
+.article-content ul {
   font-family: Liu-Light;
   font-size: 18px;
-  margin: 0 0 8px 0;
+  margin-bottom: 1em;
+}
+
+.article-content li {
+  margin-bottom:8px;
 }
 
 .chinese {
