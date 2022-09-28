@@ -81,8 +81,13 @@
   max-width: 1100px;
   text-align: left;
 }
+
+.reversed {
+  flex-direction: row-reverse;
+}
+
 @media (max-width: 950px) {
-  .summary-item-container {
+  .summary-item-container, .reversed {
     flex-direction: column;
   }
 }
