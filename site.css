@@ -137,7 +137,7 @@ b {
 }
 
 .navbar {
-  max-width: calc(100vw - 40px);
+  max-width: calc(100vw - 30px);
   height: 100%;
   display: inline-flex;
   align-items: center;
@@ -211,7 +211,7 @@ b {
 @media (max-width: 950px) {
   .navbar-logo {
     float: left;
-    margin-left: 20px;
+    margin-left: 8pxx;
   }
 }
 
