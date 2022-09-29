@@ -211,7 +211,7 @@ b {
 @media (max-width: 950px) {
   .navbar-logo {
     float: left;
-    margin-left: 8pxx;
+    margin-left: 8px;
   }
 }
 
