@@ -137,7 +137,7 @@ b {
 }
 
 .navbar {
-  max-width: calc(100vw - 30px);
+  max-width: calc(100vw - 20px);
   height: 100%;
   display: inline-flex;
   align-items: center;
