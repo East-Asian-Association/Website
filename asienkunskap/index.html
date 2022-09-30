@@ -56,8 +56,6 @@
 
       //Browser history event
       window.addEventListener('popstate', function(event) {
-        //If getCurrentArticle fails, show this page
-        var fallback = 'sponsors';
         var article = getCurrentArticle(fallback);        
         
         //Loads last article on history back
