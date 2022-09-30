@@ -48,14 +48,20 @@
       loadHeaderAndFooter();
       
       //If getCurrentArticle fails, show this page
-      var fallback = 'welcome';
+      var fallback = 'sponsors';
+      var article = getCurrentArticle(fallback);
 
       //Loads article on page load
-      changeArticleContent(getCurrentArticle(fallback));
+      loadArticleContent(article);
 
-      //Loads last article on history back
+      //Browser history event
       window.addEventListener('popstate', function(event) {
-        changeArticleContent(getCurrentArticle(fallback));
+        //If getCurrentArticle fails, show this page
+        var fallback = 'sponsors';
+        var article = getCurrentArticle(fallback);        
+        
+        //Loads last article on history back
+        loadArticleContent(article);
       });
     </script>
   </body>

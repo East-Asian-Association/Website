@@ -48,15 +48,16 @@
       var fallback = 'sponsors';
       var article = getCurrentArticle(fallback);
 
-      //Loads article on page load and pushes to History
+      //Loads article on page load
       loadArticleContent(article);
 
-      //Loads last article on history back
+      //Browser history event
       window.addEventListener('popstate', function(event) {
         //If getCurrentArticle fails, show this page
         var fallback = 'sponsors';
         var article = getCurrentArticle(fallback);        
         
+        //Loads last article on history back
         loadArticleContent(article);
       });
     </script>
