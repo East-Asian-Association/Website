@@ -17,6 +17,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     
     <script>
+      //Loads header and footer when the page has loaded
       $(document).ready(function(){
         $("#header").load("/assets/html/header.html"); 
         $("#footer").load("/assets/html/footer.html"); 
@@ -24,7 +25,6 @@
     </script>
 
     <!--- files for this page --->
-    <link href="/assets/css/article.css" rel="stylesheet" />
     <script src="/assets/js/article.js"> </script>
   </head>
   
@@ -34,27 +34,31 @@
 
     <!--- pagecontent goes here --->
     <main class="main">
-        <nav class="sidenav">
-            <ul>
-            <li id="asienkunskap" onclick="changeArticleContent('asienkunskap')">Asienkunskap</li>
-            <li id="antagen" onclick="changeArticleContent('antagen')">Antagen</li>
-            <li id="mottagning" onclick="changeArticleContent('mottagning')">Mottagnings Guide</li>
-            <li id="resurser" onclick="changeArticleContent('resurser')">Studie Resurser</li>
-            <li id="efter" onclick="changeArticleContent('efter')">Efter Asienkunskap</li>                    
-            </ul>
-        </nav>
+      <nav class="sidenav">
+          <ul>
+          <li id="asienkunskap" onclick="changeArticleContent('asienkunskap')">Asienkunskap</li>
+          <li id="antagen" onclick="changeArticleContent('antagen')">Antagen</li>
+          <li id="mottagning" onclick="changeArticleContent('mottagning')">Mottagnings Guide</li>
+          <li id="resurser" onclick="changeArticleContent('resurser')">Studie Resurser</li>
+          <li id="efter" onclick="changeArticleContent('efter')">Efter Asienkunskap</li>                    
+          </ul>
+      </nav>
 
-        <article id="article" class="article"></article>
+      <!--- article content will be loaded in from article.js here --->
+      <article id="article" class="article"></article>
     </main>
 
     <!--- footer will be loaded in from footer.js here --->
     <footer id="footer" class="gray-bg"></footer>
 
     <script>
+      //Initalizes the article on history back
       window.addEventListener('popstate', function(event) {
-        initArticle('asienkunskap');
+        initArticle('welcome');
       });
-      initArticle('asienkunskap');
+
+      //Initializes the article on load
+      initArticle('welcome');
     </script>
   </body>
 </html>

@@ -17,6 +17,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     
     <script>
+      //Loads header and footer when the page has loaded
       $(document).ready(function(){
         $("#header").load("/assets/html/header.html"); 
         $("#footer").load("/assets/html/footer.html"); 
@@ -24,7 +25,6 @@
     </script>
 
     <!--- files for this page --->
-    <link href="/assets/css/article.css" rel="stylesheet" />
     <script src="/assets/js/article.js"> </script>
   </head>
   
@@ -35,15 +35,16 @@
     <!--- pagecontent goes here --->
     <main class="main">
       <nav class="sidenav">
-          <ul>
+        <ul>
           <li id="welcome" onclick="changeArticleContent('welcome')">Welcome to Linköping</li>
           <li id="studying" onclick="changeArticleContent('studying')">Studying Swedish</li>
           <li id="shopping" onclick="changeArticleContent('shopping')">Shopping</li>
           <li id="travel" onclick="changeArticleContent('travel')">Traveling</li>  
           <li id="tickets" onclick="changeArticleContent('tickets')">Tickets for Events</li>           
-          </ul>
+        </ul>
       </nav>
 
+      <!--- article content will be loaded in from article.js here --->
       <article id="article" class="article"></article>
     </main>
 
@@ -51,9 +52,12 @@
     <footer id="footer" class="gray-bg"></footer>
 
     <script>
+      //Initalizes the article on history back
       window.addEventListener('popstate', function(event) {
         initArticle('welcome');
       });
+
+      //Initializes the article on load
       initArticle('welcome');
     </script>
   </body>
