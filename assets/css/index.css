@@ -1,12 +1,16 @@
-﻿.banner {
-  height: 60vh;
+﻿.frontpage {
+  padding-top: 60px;
+}
+
+.banner {
+  height: 70vh;
   overflow: hidden;
   position: relative;
 }
 
 @media (max-width: 950px) {
   .banner {
-    height: 88vw;
+    height: 60vw;
   }
 }
 
