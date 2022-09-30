@@ -1,11 +1,8 @@
-function loadPageContent(defaultArticle) {
+function getCurrentArticle(defaultArticle) {
     var article = new URLSearchParams(window.location.search).get('article');
-
     if ($('#' + article).length == 0)
-    article = defaultArticle;
-      
-    $('#article').load(article + '.html');
-    $('.sidenav li').each(function() { $(this).removeClass('selected') }); $('#' + article).addClass('selected');
+        return defaultArticle;
+    return article;
 }
 
 function changeArticleContent(articleName) 

@@ -49,11 +49,11 @@
       loadHeaderAndFooter();
       
       //Loads article on page load
-      loadAtrticleContent('asienkunskap');
+      changeArticleContent(getCurrentArticle('asienkunskap'));
 
       //Loads last article on history back
       window.addEventListener('popstate', function(event) {
-        loadAtrticleContent('asienkunskap');
+        changeArticleContent(getCurrentArticle('asienkunskap'));
       });
     </script>
   </body>
