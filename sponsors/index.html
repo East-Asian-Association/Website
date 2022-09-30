@@ -49,7 +49,7 @@
       var article = getCurrentArticle(fallback);
 
       //Loads article on page load and pushes to History
-      changeArticleContent(article);
+      loadArticleContent(article);
 
       //Loads last article on history back
       window.addEventListener('popstate', function(event) {
