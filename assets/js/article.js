@@ -1,6 +1,6 @@
 function changePageContent(pageName) 
 {
-    $('#article-content').load(pageName + '.html');
+    $('#article').load(pageName + '.html');
     $('.sidenav li').each(function() { $(this).removeClass('selected') }); $('#' + pageName).addClass('selected');
 
     history.pushState({}, null, "?page=" + pageName);

@@ -47,6 +47,10 @@ body {
   box-shadow: rgba(0, 0, 0, 0.18) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
   
+/*
+/ Main
+*/
+
 .main {
   background-color: var(--light-gray);
   padding-top: 60px;
@@ -63,79 +67,124 @@ body {
   }
 }
 
+/*
+/ Article
+*/
 
-.centered {
-  margin: 0;
-  position: absolute;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-  top: 50%;
-  left: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  white-space: nowrap;
+.article {
+  display: block;
+  min-height: calc(100vh - 530px);
+  margin: auto;
+  padding: 3px 0px;
 }
 
-/* Color Classes */
-
-.white {
-  color: var(--white) !important;
+@media (max-width: 500px) {
+  .article {
+    padding: 20px 10px;
+  }
 }
 
-.white-bg {
-  background-color: var(--white) !important;
+.article p {
+  font-family: Liu-Light;
+  font-size: 18px;
+  line-height: 1.8em;
+  margin: 10px 0 1em 0;
 }
 
-.red {
-  color: var(--red) !important;
+.article ul {
+  font-family: Liu-Light;
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 
-.red-bg {
-  background-color: var(--red) !important;
+.article li {
+  margin-bottom:8px;
 }
 
-.black {
-  color: var(--black) !important;
+.chinese {
+  font-size: 17px;
 }
 
-.black-bg {
-  background-color: var(--black) !important;
+.clarification {
+  font-size: 16px !important;
 }
 
-.gray {
-  color: var(--gray) !important;
-}
-
-.gray-bg {
-  background-color: var(--gray) !important;
-}
-
-b {
-  font-family: Liu;
+.article h1 {
+  font-size: 26px;
+  margin: 0 0 20px 0;
   font-weight: bold;
+  color: var(--red);
 }
 
-.bold {
-  font-weight: bold;
+.article h2 {
+  font-size: 22px;
+  font-weight: normal;
+  margin: 10px 0 0 0;
 }
 
-.redOnHover {
+.article a {
+  text-decoration: none;
   color: var(--black);
+  font-weight: bold;
 }
 
-.redOnHover:hover {
-  color: var(--red); 
+.article a:visited {
+  background-color: none;
+}
+
+.article a:hover {
+  text-decoration: underline;
+}
+
+/*
+/ Side Nav
+*/
+
+.sidenav {
+  margin: 0px 20px 10px 0px;
+  border-radius: 4px;
+  min-width: 200px;
+}
+
+@media (max-width: 500px) {
+  .sidenav {
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+  }
+}
+
+.sidenav ul {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0;
+} 
+
+.sidenav li {
+  font-size: 16px;
+  margin: 0 0 4px 0;
+  padding: 8px;
+  white-space: nowrap;
+  font-weight: bold;
+  color: var(--black);
+  border-radius: 4px;
+}
+
+@media (max-width: 500px) {
+  .sidenav li {
+    margin: 0 0 4px 0;
+    padding: 8px;
+  }
+}
+
+.sidenav li:hover {
+  color: var(--white);
+  background-color: var(--red);
   cursor: pointer;
 }
 
-.fadeOnHover {
-  animation: fade-out 0.2s forwards;
-}
-
-.fadeOnHover:hover {
-  animation: fade-in 0.2s forwards;
-  cursor: pointer;
+.selected {
+  color: var(--white) !important;
+  background-color: var(--red);
 }
 
 /* Header */
@@ -164,7 +213,7 @@ b {
   }
 }
 
-/* List */
+/* Navbar */
 
 .navbar ul {
   margin-right: 20px;
@@ -323,4 +372,78 @@ footer hr {
 
 .fa:hover {
   animation: fade-in 0.2s forwards;
+}
+
+/* Color Classes */
+
+.white {
+  color: var(--white) !important;
+}
+
+.white-bg {
+  background-color: var(--white) !important;
+}
+
+.red {
+  color: var(--red) !important;
+}
+
+.red-bg {
+  background-color: var(--red) !important;
+}
+
+.black {
+  color: var(--black) !important;
+}
+
+.black-bg {
+  background-color: var(--black) !important;
+}
+
+.gray {
+  color: var(--gray) !important;
+}
+
+.gray-bg {
+  background-color: var(--gray) !important;
+}
+
+b {
+  font-family: Liu;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.redOnHover {
+  color: var(--black);
+}
+
+.redOnHover:hover {
+  color: var(--red); 
+  cursor: pointer;
+}
+
+.fadeOnHover {
+  animation: fade-out 0.2s forwards;
+}
+
+.fadeOnHover:hover {
+  animation: fade-in 0.2s forwards;
+  cursor: pointer;
+}
+
+.centered {
+  margin: 0;
+  position: absolute;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  white-space: nowrap;
 }
