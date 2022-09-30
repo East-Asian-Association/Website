@@ -10,6 +10,12 @@
 
 @media (max-width: 950px) {
   .banner {
+    height: 40vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .banner {
     height: 60vw;
   }
 }
