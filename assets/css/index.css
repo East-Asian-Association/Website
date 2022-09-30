@@ -6,10 +6,10 @@
 
 .banner-background {
   height: 100%;
-  background-image: url('/inhysningar/eastasian/assets/img/banner.jpg');
+  background-image: url('./assets/img/banner.jpg');
   background-size: cover;
   background-position: center;
-  filter: brightness(1.5) blur(4px);
+  filter: blur(4px);
 }
 
 .banner-text {
