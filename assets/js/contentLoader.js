@@ -5,7 +5,12 @@ function getCurrentArticle(fallback) {
     return article;
 }
 
-function changeArticleContent(articleName) 
+function changeArticleContent(articleName) {
+    loadArticleContent(articleName);
+    pushToHistory(articleName);
+}
+
+function loadArticleContent(articleName) 
 {
     $('#article').load(articleName + '.html');
     $('.sidenav li').each(function() { $(this).removeClass('selected') }); $('#' + articleName).addClass('selected');

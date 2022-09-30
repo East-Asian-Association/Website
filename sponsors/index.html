@@ -28,8 +28,8 @@
     <main class="main">
       <nav class="sidenav">
         <ul>
-            <li id="sponsors" onclick="{ changeArticleContent('sponsors'); pushToHistory(article) }">Why EAA?</li>
-            <li id="offerings" onclick="{ changeArticleContent('offerings'); pushToHistory(article) }">What we offer</li>           
+            <li id="sponsors" onclick="changeArticleContent('sponsors')">Why EAA?</li>
+            <li id="offerings" onclick="changeArticleContent('offerings')">What we offer</li>           
         </ul>
       </nav>  
 
@@ -48,16 +48,16 @@
       var fallback = 'sponsors';
       var article = getCurrentArticle(fallback);
 
-      //Loads article on page load
+      //Loads article on page load and pushes to History
       changeArticleContent(article);
-
-      //Pushes the article to browser history
-      pushToHistory(article);
 
       //Loads last article on history back
       window.addEventListener('popstate', function(event) {
-        var article = getCurrentArticle(fallback);
-        changeArticleContent(article);
+        //If getCurrentArticle fails, show this page
+        var fallback = 'sponsors';
+        var article = getCurrentArticle(fallback);        
+        
+        loadArticleContent(article);
       });
     </script>
   </body>
