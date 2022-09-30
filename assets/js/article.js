@@ -1,17 +1,17 @@
-function changePageContent(pageName) 
+function changeArticleContent(articleName) 
 {
-    $('#article').load(pageName + '.html');
-    $('.sidenav li').each(function() { $(this).removeClass('selected') }); $('#' + pageName).addClass('selected');
+    $('#article').load(articleName + '.html');
+    $('.sidenav li').each(function() { $(this).removeClass('selected') }); $('#' + articleName).addClass('selected');
 
-    history.pushState({}, null, "?page=" + pageName);
+    history.pushState({}, null, "?page=" + articleName);
 };
 
-function initPage(pageName) {
-    var page = new URLSearchParams(window.location.search).get('page');
+function initArticle(articleName) {
+    var article = new URLSearchParams(window.location.search).get('page');
 
     if ($('#' + page).length == 0)
-      page = pageName;
+    article = articleName;
       
-    $('#article').load(page + '.html');
-    $('.sidenav li').each(function() { $(this).removeClass('selected') }); $('#' + page).addClass('selected');
+    $('#article').load(article + '.html');
+    $('.sidenav li').each(function() { $(this).removeClass('selected') }); $('#' + article).addClass('selected');
 }

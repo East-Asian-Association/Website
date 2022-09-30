@@ -36,8 +36,8 @@
     <main class="main">
       <nav class="sidenav">
         <ul>
-            <li id="sponsors" onclick="changePageContent('sponsors')">Why EAA?</li>
-            <li id="offerings" onclick="changePageContent('offerings')">What we offer</li>           
+            <li id="sponsors" onclick="changeArticleContent('sponsors')">Why EAA?</li>
+            <li id="offerings" onclick="changeArticleContent('offerings')">What we offer</li>           
         </ul>
       </nav>  
       <article id="article" class="article"></article>
@@ -48,9 +48,9 @@
 
     <script>
       window.addEventListener('popstate', function(event) {
-        initPage('sponsors');
+        initArticle('sponsors');
       });
-      initPage('sponsors');
+      initArticle('sponsors');
     </script>
   </body>
 </html>

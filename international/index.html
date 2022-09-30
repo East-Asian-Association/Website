@@ -36,11 +36,11 @@
     <main class="main">
       <nav class="sidenav">
           <ul>
-          <li id="welcome" onclick="changePageContent('welcome')">Welcome to Linköping</li>
-          <li id="studying" onclick="changePageContent('studying')">Studying Swedish</li>
-          <li id="shopping" onclick="changePageContent('shopping')">Shopping</li>
-          <li id="travel" onclick="changePageContent('travel')">Traveling</li>  
-          <li id="tickets" onclick="changePageContent('tickets')">Tickets for Events</li>           
+          <li id="welcome" onclick="changeArticleContent('welcome')">Welcome to Linköping</li>
+          <li id="studying" onclick="changeArticleContent('studying')">Studying Swedish</li>
+          <li id="shopping" onclick="changeArticleContent('shopping')">Shopping</li>
+          <li id="travel" onclick="changeArticleContent('travel')">Traveling</li>  
+          <li id="tickets" onclick="changeArticleContent('tickets')">Tickets for Events</li>           
           </ul>
       </nav>
 
@@ -52,9 +52,9 @@
 
     <script>
       window.addEventListener('popstate', function(event) {
-        initPage('welcome');
+        initArticle('welcome');
       });
-      initPage('welcome');
+      initArticle('welcome');
     </script>
   </body>
 </html>

@@ -36,11 +36,11 @@
     <main class="main">
         <nav class="sidenav">
             <ul>
-            <li id="asienkunskap" onclick="changePageContent('asienkunskap')">Asienkunskap</li>
-            <li id="antagen" onclick="changePageContent('antagen')">Antagen</li>
-            <li id="mottagning" onclick="changePageContent('mottagning')">Mottagnings Guide</li>
-            <li id="resurser" onclick="changePageContent('resurser')">Studie Resurser</li>
-            <li id="efter" onclick="changePageContent('efter')">Efter Asienkunskap</li>                    
+            <li id="asienkunskap" onclick="changeArticleContent('asienkunskap')">Asienkunskap</li>
+            <li id="antagen" onclick="changeArticleContent('antagen')">Antagen</li>
+            <li id="mottagning" onclick="changeArticleContent('mottagning')">Mottagnings Guide</li>
+            <li id="resurser" onclick="changeArticleContent('resurser')">Studie Resurser</li>
+            <li id="efter" onclick="changeArticleContent('efter')">Efter Asienkunskap</li>                    
             </ul>
         </nav>
 
@@ -52,9 +52,9 @@
 
     <script>
       window.addEventListener('popstate', function(event) {
-        initPage('asienkunskap');
+        initArticle('asienkunskap');
       });
-      initPage('asienkunskap');
+      initArticle('asienkunskap');
     </script>
   </body>
 </html>
