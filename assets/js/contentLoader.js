@@ -9,9 +9,11 @@ function changeArticleContent(articleName)
 {
     $('#article').load(articleName + '.html');
     $('.sidenav li').each(function() { $(this).removeClass('selected') }); $('#' + articleName).addClass('selected');
-
-    history.pushState({}, null, "?article=" + articleName);
 };
+
+function pushToHistory(articleName) {
+    history.pushState({}, null, "?article=" + articleName);
+}
 
 function loadHeaderAndFooter() {
     $("#header").load("/assets/html/header.html"); 
