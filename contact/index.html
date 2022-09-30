@@ -15,14 +15,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    
-    <script>
-      //Loads header and footer when the page has loaded
-      $(document).ready(function(){
-        $("#header").load("/assets/html/header.html"); 
-        $("#footer").load("/assets/html/footer.html"); 
-      });
-    </script>
 
     <!--- files for this page --->
     <link href="/assets/css/contact.css" rel="stylesheet" />
@@ -41,5 +33,10 @@
 
     <!--- footer will be loaded in from footer.js here --->
     <footer id="footer" class="gray-bg"></footer>
+
+    <script>
+      //Loads header and footer on page load
+      loadHeaderAndFooter();
+    </script>
   </body>
 </html>

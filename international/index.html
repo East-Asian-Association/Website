@@ -15,14 +15,6 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    
-    <script>
-      //Loads header and footer when the page has loaded
-      $(document).ready(function(){
-        $("#header").load("/assets/html/header.html"); 
-        $("#footer").load("/assets/html/footer.html"); 
-      });
-    </script>
 
     <!--- files for this page --->
     <script src="/assets/js/article.js"> </script>
@@ -52,13 +44,19 @@
     <footer id="footer" class="gray-bg"></footer>
 
     <script>
-      //Initalizes the article on history back
-      window.addEventListener('popstate', function(event) {
-        initArticle('welcome');
-      });
+      //Loads header and footer on page load
+      loadHeaderAndFooter();
+      
+      //If getCurrentArticle fails, show this page
+      var fallback = 'welcome';
 
-      //Initializes the article on load
-      initArticle('welcome');
+      //Loads article on page load
+      changeArticleContent(getCurrentArticle(fallback));
+
+      //Loads last article on history back
+      window.addEventListener('popstate', function(event) {
+        changeArticleContent(getCurrentArticle(fallback));
+      });
     </script>
   </body>
 </html>
