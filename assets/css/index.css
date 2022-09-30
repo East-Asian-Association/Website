@@ -49,7 +49,7 @@
 
 @media (max-width: 950px) {
   .banner-text #top {
-    font-size: 30px;
+    font-size: 27px;
   }
   
   .banner-text #middle {
@@ -57,7 +57,7 @@
   }
   
   .banner-text #bottom {
-    font-size: 30px;
+    font-size: 27px;
   }
 }
 
