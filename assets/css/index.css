@@ -9,7 +9,7 @@
   background-image: url('/assets/img/banner.jpg');
   background-size: cover;
   background-position: center;
-  filter: brightness(1.7) blur(4px);
+  filter: brightness(1.2) blur(4px);
 }
 
 .banner-text {
