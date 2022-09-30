@@ -12,6 +12,6 @@ function initPage(pageName) {
     if ($('#' + page).length == 0)
       page = pageName;
       
-    $('#article-content').load(page + '.html');
+    $('#article').load(page + '.html');
     $('.sidenav li').each(function() { $(this).removeClass('selected') }); $('#' + page).addClass('selected');
 }
