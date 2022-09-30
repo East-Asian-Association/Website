@@ -72,13 +72,14 @@
   color: var(--black);
   font-weight: bold;
 }
+
 .article-content a:visited {
   background-color: none;
 }
+
 .article-content a:hover {
   text-decoration: underline;
 }
-
 
 /*
 / Side Nav
