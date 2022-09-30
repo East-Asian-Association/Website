@@ -10,13 +10,13 @@
 
 @media (max-width: 950px) {
   .banner {
-    height: 40vh;
+    height: 42vh;
   }
 }
 
 @media (max-width: 500px) {
   .banner {
-    height: 60vw;
+    height: 100vw;
   }
 }
 
@@ -92,11 +92,11 @@
 
 @media (max-width: 950px) {
   .banner-button {
-    margin-top: 3.2vw;
+    margin-top: 16px;
   }
   .banner-button p {
-    padding: 0.85vw 2.55vw;
-    font-size: 2.1vw;
+    padding: 4.25px 12.75px;
+    font-size: 10.5px;
   }
 }
 
