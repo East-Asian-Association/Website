@@ -1,7 +1,7 @@
-function getCurrentArticle(defaultArticle) {
+function getCurrentArticle(fallback) {
     var article = new URLSearchParams(window.location.search).get('article');
     if ($('#' + article).length == 0)
-        return defaultArticle;
+        return fallback;
     return article;
 }
 

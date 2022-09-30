@@ -28,11 +28,11 @@
     <main class="main">
       <nav class="sidenav">
           <ul>
-          <li id="asienkunskap" onclick="changeArticleContent('asienkunskap')">Asienkunskap</li>
-          <li id="antagen" onclick="changeArticleContent('antagen')">Antagen</li>
-          <li id="mottagning" onclick="changeArticleContent('mottagning')">Mottagnings Guide</li>
-          <li id="resurser" onclick="changeArticleContent('resurser')">Studie Resurser</li>
-          <li id="efter" onclick="changeArticleContent('efter')">Efter Asienkunskap</li>                    
+            <li id="asienkunskap" onclick="changeArticleContent('asienkunskap')">Asienkunskap</li>
+            <li id="antagen" onclick="changeArticleContent('antagen')">Antagen</li>
+            <li id="mottagning" onclick="changeArticleContent('mottagning')">Mottagnings Guide</li>
+            <li id="resurser" onclick="changeArticleContent('resurser')">Studie Resurser</li>
+            <li id="efter" onclick="changeArticleContent('efter')">Efter Asienkunskap</li>                    
           </ul>
       </nav>
 
@@ -48,12 +48,14 @@
       //Loads header and footer on page load
       loadHeaderAndFooter();
       
+      var fallback = 'asienkunskap';
+
       //Loads article on page load
-      changeArticleContent(getCurrentArticle('asienkunskap'));
+      changeArticleContent(getCurrentArticle(fallback));
 
       //Loads last article on history back
       window.addEventListener('popstate', function(event) {
-        changeArticleContent(getCurrentArticle('asienkunskap'));
+        changeArticleContent(getCurrentArticle(fallback));
       });
     </script>
   </body>
