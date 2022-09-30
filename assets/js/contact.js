@@ -1,5 +1,5 @@
 
-fetch('/inhysningar/eastasian/assets/contacts.json')
+fetch('/assets/contacts.json')
     .then((response) => response.json())
     .then((data) => 
         data.members.map((member) => {
@@ -12,7 +12,7 @@ fetch('/inhysningar/eastasian/assets/contacts.json')
                             "<p>E-mail: " + member.gmail + "</p>" +
                         "</div>" + 
                         "<div class='member-photo'>" +
-                            "<img src='/inhysningar/eastasian/assets/img/profile.png'></img>" +
+                            "<img src='/assets/img/profile.png'></img>" +
                         "</div>" +
                     "</div>" +
                 "</div>"
