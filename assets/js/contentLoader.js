@@ -1,0 +1,22 @@
+function loadPageContent(defaultArticle) {
+    var article = new URLSearchParams(window.location.search).get('article');
+
+    if ($('#' + article).length == 0)
+    article = defaultArticle;
+      
+    $('#article').load(article + '.html');
+    $('.sidenav li').each(function() { $(this).removeClass('selected') }); $('#' + article).addClass('selected');
+}
+
+function changeArticleContent(articleName) 
+{
+    $('#article').load(articleName + '.html');
+    $('.sidenav li').each(function() { $(this).removeClass('selected') }); $('#' + articleName).addClass('selected');
+
+    history.pushState({}, null, "?article=" + articleName);
+};
+
+function loadHeaderAndFooter() {
+    $("#header").load("/assets/html/header.html"); 
+    $("#footer").load("/assets/html/footer.html"); 
+}

@@ -16,16 +16,8 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     
-    <script>
-      //Loads header and footer when the page has loaded
-      $(document).ready(function(){
-        $("#header").load("/assets/html/header.html"); 
-        $("#footer").load("/assets/html/footer.html"); 
-      });
-    </script>
-
     <!--- files for this page --->
-    <script src="/assets/js/article.js"> </script>
+    <script src="/assets/js/contentLoader.js"> </script>
   </head>
   
   <body>  
@@ -52,13 +44,17 @@
     <footer id="footer" class="gray-bg"></footer>
 
     <script>
-      //Initalizes the article on history back
-      window.addEventListener('popstate', function(event) {
-        initArticle('asienkunskap');
-      });
 
-      //Initializes the article on load
-      initArticle('asienkunskap');
+      //Loads header and footer on page load
+      loadHeaderAndFooter();
+      
+      //Loads article on page load
+      loadAtrticleContent('asienkunskap');
+
+      //Loads last article on history back
+      window.addEventListener('popstate', function(event) {
+        loadAtrticleContent('asienkunskap');
+      });
     </script>
   </body>
 </html>
