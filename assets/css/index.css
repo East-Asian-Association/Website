@@ -49,18 +49,30 @@
 
 @media (max-width: 950px) {
   .banner-text #top {
+    font-size: 30px;
+  }
+  
+  .banner-text #middle {
+    font-size: 55px;
+  }
+  
+  .banner-text #bottom {
+    font-size: 30px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .banner-text #top {
     font-size: 5.26vw;
-    margin: 0;
   }
   
   .banner-text #middle {
     font-size: 7.9vw;
-    margin: 0;
   }
   
   .banner-text #bottom {
     font-size: 5.26vw;
-    margin: 0;
   }
 }
 
