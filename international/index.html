@@ -9,7 +9,17 @@
     
     <title>East Asian Association</title>
 
-    <!--- files for all pages --->
+    <!-- Google analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M45PYWTDXB"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-M45PYWTDXB');
+    </script>
+    
+    <!-- files for all pages -->
     <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
     <link rel="icon" href="/favicon-16x16.png" sizes="16x16" type="image/png">
     <link rel="manifest" href="/manifest.json" />
@@ -18,15 +28,15 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
-    <!--- files for this page --->
+    <!-- files for this page -->
     <script src="/assets/js/contentLoader.js"> </script>
   </head>
   
   <body>  
-    <!--- header will be loaded in from header.js here --->
+    <!-- header will be loaded in from header.js here -->
     <header id="header" class="box-shadow white-bg"></header>
 
-    <!--- pagecontent goes here --->
+    <!-- pagecontent goes here -->
     <main class="main">
       <nav class="sidenav">
         <ul>
@@ -38,11 +48,11 @@
         </ul>
       </nav>
 
-      <!--- article content will be loaded in from article.js here --->
+      <!-- article content will be loaded in from article.js here -->
       <article id="article" class="article"></article>
     </main>
 
-    <!--- footer will be loaded in from footer.js here --->
+    <!-- footer will be loaded in from footer.js here -->
     <footer id="footer" class="gray-bg"></footer>
 
     <script>

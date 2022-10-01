@@ -9,10 +9,20 @@
     
     <meta name="description" content="The official website of East Aisan Association at Linköping university" />
     
-    <!--- preload --->
+    <!-- preload -->
     <link rel="preload" href="/assets/img/banner.jpg" as="image"> 
 
-    <!--- files for all pages --->
+    <!-- Google analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M45PYWTDXB"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-M45PYWTDXB');
+    </script>
+
+    <!-- files for all pages -->
     <link rel="icon" href="/favicon-32x32.png" sizes="32x32" type="image/png">
     <link rel="icon" href="/favicon-16x16.png" sizes="16x16" type="image/png">
     <link rel="manifest" href="/manifest.json" />
@@ -29,16 +39,16 @@
       }
     </script>
 
-    <!--- files for this page --->
+    <!-- files for this page -->
     <link href="/assets/css/index.css" rel="stylesheet" />
     <script src="/assets/js/contentLoader.js"></script>
   </head>
   
   <body>  
-    <!--- header will be loaded in from header.js here --->
+    <!-- header will be loaded in from header.js here -->
     <header id="header" class="box-shadow white-bg"></header>
 
-    <!--- pagecontent goes here --->
+    <!-- pagecontent goes here -->
     <main class="frontpage">
       <section class="banner black-bg white">
         <div class="banner-background"></div>
@@ -95,7 +105,7 @@
       </section>
     </main>
     
-    <!--- footer will be loaded in from footer.js here --->
+    <!-- footer will be loaded in from footer.js here -->
     <footer id="footer" class="gray-bg"> </footer>
     
     <script>
