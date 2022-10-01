@@ -1,6 +1,7 @@
 {
   "short_name": "EAA",
   "name": "East Asian Association",
+  "description": "The official website of East Aisan Association at Linköping university",
   "icons": [
     {
       "src": "/assets/img/favicon16.png",
