@@ -3,14 +3,25 @@
   "name": "East Asian Association",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "48x48 32x32 16x16",
-      "type": "image/x-icon"
+      "src": "/assets/img/favicon16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }, {
+      "src": "/assets/img/favicon32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }, {
+      "src": "/assets/img/favico64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    }, {
+      "src": "/assets/img/favicon128.png",
+      "sizes": "128x128",
+      "type": "image/png"
     }
   ],
   "start_url": "/index.html",
   "display": "standalone",
   "theme_color": "#911f2a",
-  "background_color": "#f7f7f7",
-  "scope": "/app/"
+  "background_color": "#f7f7f7"
 }
