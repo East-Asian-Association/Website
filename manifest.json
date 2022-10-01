@@ -11,12 +11,16 @@
       "sizes": "32x32",
       "type": "image/png"
     }, {
-      "src": "/assets/img/favico64.png",
+      "src": "/assets/img/favicon64.png",
       "sizes": "64x64",
       "type": "image/png"
     }, {
       "src": "/assets/img/favicon128.png",
       "sizes": "128x128",
+      "type": "image/png"
+    }, {
+      "src": "/assets/img/favicon144.png",
+      "sizes": "144x144",
       "type": "image/png"
     }
   ],
