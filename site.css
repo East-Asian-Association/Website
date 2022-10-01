@@ -352,11 +352,12 @@ footer hr {
 /* Social Media buttons */
 
 .social-media-button { 
+  display: inline-block;
   border-radius: 4px;
-  padding: 10px;
+  padding: 8px;
   margin: 8px 4px 0px 4px;
-  font-size: 25px !important;
-  width: 25px;
+  width: 20px;
+  height: 20px;
   text-align: center;
   text-decoration: none;
   animation: fade-out 0.2s forwards;
