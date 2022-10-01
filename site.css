@@ -351,7 +351,7 @@ footer hr {
 
 /* Social Media buttons */
 
-.fa { 
+.social-media-button { 
   border-radius: 4px;
   padding: 10px;
   margin: 8px 4px 0px 4px;
@@ -362,7 +362,7 @@ footer hr {
   animation: fade-out 0.2s forwards;
 }
 
-.fa:hover {
+.social-media-button:hover {
   animation: fade-in 0.2s forwards;
 }
 
