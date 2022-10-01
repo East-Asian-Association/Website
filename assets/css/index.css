@@ -92,11 +92,21 @@
 
 @media (max-width: 950px) {
   .banner-button {
-    margin-top: 16px;
+    margin-top: 20px;
   }
   .banner-button p {
-    padding: 4.25px 12.75px;
-    font-size: 10.5px;
+    padding: 6px 18px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 500px) {
+  .banner-button {
+    margin-top: 4vw;
+  }
+  .banner-button p {
+    padding: 1.2vw 3.6vw;
+    font-size: 3vw;
   }
 }
 
