@@ -3,14 +3,14 @@
 }
 
 .banner {
-  height: 70vh;
+  height: 900px;
   overflow: hidden;
   position: relative;
 }
 
 @media (max-width: 950px) {
   .banner {
-    height: 42vh;
+    height: 500px;
   }
 }
 
