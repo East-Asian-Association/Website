@@ -9,6 +9,14 @@
 }
 
 @font-face {
+  font-family: 'Liu';
+  font-style: normal;
+  font-weight: bold;
+  src: local(''),
+       url('/assets/fonts/KorolevLiU-Bold.woff2') format('woff2')
+}
+
+@font-face {
   font-family: 'Liu-Light';
   font-style: normal;
   font-weight: normal;
