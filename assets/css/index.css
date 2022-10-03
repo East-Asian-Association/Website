@@ -88,6 +88,7 @@
   font-family: Liu;
   font-weight: bold;
   font-size: 20px;
+  color: var(--black);
 }
 
 @media (max-width: 950px) {
