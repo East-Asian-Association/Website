@@ -19,3 +19,56 @@ function loadArticleContent(articleName)
 function pushToHistory(articleName) {
     history.pushState({}, null, "?article=" + articleName);
 }
+
+function loadHeader(assetLocation) {
+    $('#header').load(`
+        <nav class="navbar">
+            <a href='/' class="navbar-logo-wrapper">
+                <img class="navbar-logo" src="` + assetLocation + `svg/navbar-logo.svg"></img>
+            </a>
+
+            <button class="navbar-toggle" onClick='toggleNavbar()'>
+                <img class="navbar-toggle-icon" src="` + assetLocation + `svg/navbar-toggle-icon.svg"></img>
+            </button>
+
+            <ul class="black white-bg">
+            <li>
+                <a class="redOnHover" href='/about'>About</a>
+            </li>
+            <li>
+                <a class="redOnHover" href='/contact'>Contact</a>
+            </li>
+            <li>
+                <a class="redOnHover" href='/sponsors'>Sponsors</a>
+            </li>
+            <li>
+                <a class="redOnHover" href='/membership'>Membership</a>
+            </li>
+            <li>
+                <a class="redOnHover" href='/asienkunskap'>Asienkunskap</a>
+            </li>
+            <li>
+                <a class="redOnHover" href='/international'>International Students</a>
+            </li>
+            </ul>
+        </nav>
+
+        <script>
+            var collapsed = true;
+
+            function toggleNavbar () {
+                collapsed = !collapsed;
+                if (collapsed) {
+                    $(".navbar ul").animate({
+                        top: -175
+                    }, 400);
+                }
+                else {
+                    $(".navbar ul").animate({
+                        top: 60
+                    }, 400);
+                }
+            }
+        </script>
+    `);
+}
