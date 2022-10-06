@@ -1,4 +1,4 @@
-# The official website for East Asian Association at Liu
+# The official website for East Asian Association
 
 ## Debug instructions for linux
 
