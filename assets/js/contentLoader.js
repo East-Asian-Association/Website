@@ -19,8 +19,3 @@ function loadArticleContent(articleName)
 function pushToHistory(articleName) {
     history.pushState({}, null, "?article=" + articleName);
 }
-
-function loadHeaderAndFooter() {
-    $("#header").load("./assets/html/header.html"); 
-    $("#footer").load("./assets/html/footer.html"); 
-}

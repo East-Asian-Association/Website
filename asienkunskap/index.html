@@ -55,7 +55,8 @@
 
     <script>
       //Loads header and footer on page load
-      loadHeaderAndFooter();
+      $("#header").load("../assets/html/header.html"); 
+      $("#footer").load("../assets/html/footer.html");  
       
       //If getCurrentArticle fails, show this page
       const fallback = 'asienkunskap';
