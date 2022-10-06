@@ -53,8 +53,9 @@
 
     <script>
       //Loads header and footer on page load
-      loadHeaderAndFooter();
-      
+      loadHeader("../assets/");
+      loadFooter("../assets/");
+
       //If getCurrentArticle fails, show this page
       const fallback = 'sponsors';
       var article = getCurrentArticle(fallback);
