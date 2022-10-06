@@ -73,7 +73,7 @@ function loadHeader(root) {
     `);
 }
 
-function loadFooter(assetLocation) {
+function loadFooter(root) {
     $('#footer').append(`
         <div class='footer-grid'>
             <div id='Contact' class='footer-grid-item'>
