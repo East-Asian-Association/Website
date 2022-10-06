@@ -12,8 +12,8 @@
 ## Debug instructions for Windows
 
 1. Make sure npm is installed 
-2. Download the git repository https://github.com/East-Asian-Association/Website/archive/refs/heads/main.zip
-3. Open the repository folder in command prompt
-4. Install http-server `npm install --global http-server`
-5. Run the webserver `http-server`
-6. Open http://localhost:8080/ in your browser
+2. Download and unzip the git repository https://github.com/East-Asian-Association/Website/archive/refs/heads/main.zip
+4. Open the repository folder in command prompt
+5. Install http-server `npm install --global http-server`
+6. Run the webserver `http-server`
+7. Open http://localhost:8080/ in your browser
