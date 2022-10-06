@@ -318,12 +318,10 @@ article a:hover {
 
 @media (max-width: 950px) {
   .footer-grid {
-    grid-row: 1fr fr;
     grid-template-columns: 1fr 1fr;
     max-width: 300px;
-    padding-top: 60px;
     height: 200px;
-    padding: 40px 0 160px 0;
+    padding: 60px 0 160px 0;
   }
 }
 
