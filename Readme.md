@@ -9,7 +9,7 @@
 5. Run the webserver `http-server`
 6. Open http://localhost:8080/ in your browser
 
-## Debug instructions for linux
+## Debug instructions for Windows
 
 1. Make sure npm is installed 
 2. Download the git repository https://github.com/East-Asian-Association/Website/archive/refs/heads/main.zip
