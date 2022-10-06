@@ -21,9 +21,9 @@ function pushToHistory(articleName) {
 }
 
 function loadHeader() {
-    $('#header').html("/assets/html/header.html");
+    $('#header').load("/assets/html/header.html");
 }
 
 function loadFooter() {
-    $('#footer').html("/assets/html/footer.html");
+    $('#footer').load("/assets/html/footer.html");
 }
