@@ -312,22 +312,20 @@ article a:hover {
   grid-template-columns: 1fr 1fr 1fr;
   max-width: 800px;
   margin: auto;
-  height: 160px;
-  padding: 40px 0 120px 0;
+  padding: 80px 0 160px 0;
 }
 
 @media (max-width: 950px) {
   .footer-grid {
     grid-template-columns: 1fr 1fr;
     max-width: 300px;
-    height: 200px;
     padding: 60px 0 160px 0;
   }
 }
 
 .footer-grid-item {
   margin: auto;
-  height: 100px;
+  height: 140px;
 }
 
 @media (max-width: 950px) {
