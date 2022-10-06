@@ -21,7 +21,7 @@ function pushToHistory(articleName) {
 }
 
 function loadHeader(assetLocation) {
-    $('#header').load(`
+    $('#header').append(`
         <nav class="navbar">
             <a href='/' class="navbar-logo-wrapper">
                 <img class="navbar-logo" src="` + assetLocation + `svg/navbar-logo.svg"></img>
