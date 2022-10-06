@@ -21,6 +21,6 @@ function pushToHistory(articleName) {
 }
 
 function loadHeaderAndFooter() {
-    $("#header").load("../html/header.html"); 
-    $("#footer").load("../html/footer.html"); 
+    $("#header").load("../assets/html/header.html"); 
+    $("#footer").load("../assets/html/footer.html"); 
 }
