@@ -311,9 +311,9 @@ article a:hover {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   max-width: 800px;
-  height: 200px;
   margin: auto;
-  padding: 40px 0 160px 0;
+  height: 160px;
+  padding: 40px 0 120px 0;
 }
 
 @media (max-width: 950px) {
@@ -322,6 +322,8 @@ article a:hover {
     grid-template-columns: 1fr 1fr;
     max-width: 300px;
     padding-top: 60px;
+    height: 200px;
+    padding: 40px 0 160px 0;
   }
 }
 
