@@ -1,5 +1,5 @@
 
-fetch('assets/contacts.json')
+fetch('/assets/contacts.json')
     .then((response) => response.json())
     .then((data) => 
         data.members.map((member) => {
