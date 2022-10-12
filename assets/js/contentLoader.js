@@ -12,7 +12,7 @@ function changeArticleContent(articleName) {
 
 function loadArticleContent(articleName) 
 {
-    $('#article').load(articleName);
+    $('#article').load(articleName + ".html");
     $('.sidenav li').each(function() { $(this).removeClass('selected') }); $('#' + articleName).addClass('selected');
 };
 
