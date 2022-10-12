@@ -36,6 +36,14 @@
 
     <!-- pagecontent goes here -->
     <main class="main">
+      <nav class="sidenav">
+        <ul>
+        <li id="cc" onclick="changeArticleContent('cc')">Conversation Corner</li>
+        <li id="pubs" onclick="changeArticleContent('pubs')">Pubs</li>
+        <li id="sittning" onclick="changeArticleContent('sittning')">Sittning</li>
+        </ul>
+      </nav>
+
       <!-- article content will be loaded in from article.js here -->
       <article id="article"></article>
     </main>
@@ -47,9 +55,21 @@
       //Loads header and footer on page load
       loadHeader();
       loadFooter();
+      
+      //If getCurrentArticle fails, show this page
+      const fallback = 'cc';
+      var article = getCurrentArticle(fallback);
 
       //Loads article on page load
-      loadArticleContent('membership');
+      loadArticleContent(article);
+
+      //Browser history event
+      window.addEventListener('popstate', function(event) {
+        var article = getCurrentArticle(fallback);        
+        
+        //Loads last article on history back
+        loadArticleContent(article);
+      });
     </script>
   </body>
 </html>

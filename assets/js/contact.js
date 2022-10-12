@@ -1,4 +1,3 @@
-
 fetch('/assets/contacts.json')
     .then((response) => response.json())
     .then((data) => 
