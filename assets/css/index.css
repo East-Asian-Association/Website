@@ -22,10 +22,10 @@
 
 .banner-background {
   height: 100%;
-  background-image: url('/assets/img/banner.jpg');
+  background-image: url('/assets/img/banner.webp');
   background-size: cover;
   background-position: center;
-  filter: saturate(0.7) brightness(1.2) blur(4px);
+  filter: saturate(0.7) brightness(1.2) blur(3px);
 }
 
 .banner-text {
