@@ -2,6 +2,7 @@ fetch('/assets/contacts.json')
     .then((response) => response.json())
     .then((data) => 
         data.members.map((member) => {
+            var bild = ("bild" in member) == 0 ? "profile.png" : member.bild;
             $('#member-grid').append(
                 "<div class='member'>" + 
                     "<div class='member-flex'>" +
@@ -11,7 +12,7 @@ fetch('/assets/contacts.json')
                             "<p>E-mail: " + member.gmail + "</p>" +
                         "</div>" + 
                         "<div class='member-photo'>" +
-                            "<img src='/assets/img/profile.png'></img>" +
+                            "<img src='/assets/img/" + bild + "'></img>" +
                         "</div>" +
                     "</div>" +
                 "</div>"
