@@ -82,6 +82,7 @@ article {
   display: block;
   min-height: calc(100vh - 530px);
   padding: 3px 0px;
+  width: calc(100% - 12px);
 }
 
 @media (max-width: 600px) {
