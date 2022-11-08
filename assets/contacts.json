@@ -4,13 +4,15 @@
             "post": "Ordförande",
             "name": "Kendal Fritzell",
             "studorgmail": "ordf@eastasian.studorg.liu.se",
-            "gmail": "ordf.eaa@gmail.com"
+            "gmail": "ordf.eaa@gmail.com",
+            "bild": "styret_ordförande.webp"
         },
         {
             "post": "Vice Ordförande",
             "name": "Louise Eriksson",
             "studorgmail": "vordf@eastasian.studorg.liu.se",
-            "gmail": "vordf.eaa@gmail.com"
+            "gmail": "vordf.eaa@gmail.com",
+            "bild": "styret_vice.webp"
         },
         {
             "post": "Sekreterare",
@@ -22,49 +24,57 @@
             "post": "AMO",
             "name": "Noah Svedlund",
             "studorgmail": "amo@eastasian.studorg.liu.se",
-            "gmail": "Amo.eaa.liu@gmail.com"
+            "gmail": "Amo.eaa.liu@gmail.com",
+            "bild": "styret_amo.webp"
         },
         {
             "post": "CC-ansvarig",
             "name": "Carl Österman",
             "studorgmail": "cc@eastasian.studorg.liu.se",
-            "gmail": "ccansvarig.eaa@gmail.com"
+            "gmail": "ccansvarig.eaa@gmail.com",
+            "bild": "styret_cc.webp"
         },
         {
             "post": "Event-ansvarig",
             "name": "Britta Karlsson",
             "studorgmail": "event@eastasian.studorg.liu.se",
-            "gmail": "eventansvarig.eaa@gmail.com"
+            "gmail": "eventansvarig.eaa@gmail.com",
+            "bild": "styret_event.webp"
         },
         {
             "post": "TEKKEN General",
             "name": "Linus Lundblad",
             "studorgmail": "general@eastasian.studorg.liu.se",
-            "gmail": "generalen.eaa@gmail.com"
+            "gmail": "generalen.eaa@gmail.com",
+            "bild": "styret_general.webp"
         },
         {
             "post": "Informations-ansvarig",
             "name": "Linn Jägestedt",
             "studorgmail": "info@eastasian.studorg.liu.se",
-            "gmail": "infoansvarig.eaa@gmail.com"
+            "gmail": "infoansvarig.eaa@gmail.com",
+            "bild": "styret_info.webp"
         },
         {
             "post": "Näringslivs-ansvaring",
             "name": "Agnes Wikander",
             "studorgmail": "naringsliv@eastasian.studorg.liu.se",
-            "gmail": "naringsliv.eaa@gmail.com "
+            "gmail": "naringsliv.eaa@gmail.com",
+            "bild": "styret_näringsliv.webp"
         },
         {
             "post": "Kassör",
             "name": "Hans Birkedal",
             "studorgmail": "kassor@eastasian.studorg.liu.se",
-            "gmail": "kassor.eaa@gmail.com"
+            "gmail": "kassor.eaa@gmail.com",
+            "bild": "styret_kassör.webp"
         },
         {
             "post": "Studienämnds-ordförande",
             "name": "Simon Ardfors",
             "studorgmail": "snordf@eastasian.studorg.liu.se",
-            "gmail": "snordf.eaa@gmail.com"
+            "gmail": "snordf.eaa@gmail.com",
+            "bild": "styret_snordf.webp"
         },
         {
             "post": "Valberedningen",
