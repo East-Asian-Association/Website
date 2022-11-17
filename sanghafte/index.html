@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <title>East Asian Association</title>
+    <meta name="author" content="Linn Jägestedt">
+    <meta name="description" content="Information om utbildningen Asienkunskap på Linköpings Universitet">
+    <meta name="keywords" content="
+      Asienkunskap, Japanska, Kinesiska, 
+      Teknisk Fysik, Industriell Ekonomi,
+      Linköping, Linköpings Universitet, 
+      Linköping University, LiU,
+      林雪平, 林雪平大学, 
+      林雪平, 林雪平大學, 
+      リンシェーピング, 
+      린셰핑 대학교, 린셰핑">
+
+    <!-- Google analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M45PYWTDXB"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-M45PYWTDXB');
+    </script>
+
+    <!-- files for all pages -->
+    <link href="/assets/img/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+    <link href="/assets/img/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+    <link href="/assets/manifest.json" rel="manifest">
+
+    <link href="/assets/css/site.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    
+    <!-- files for this page -->
+    <script src="/assets/js/contentLoader.js"> </script>
+  </head>
+  
+  <body>  
+    <!-- header will be loaded in from header.js here -->
+    <header id="header" class="box-shadow white-bg"></header>
+
+    <!-- pagecontent goes here -->
+    <main class="main">
+      <nav class="sidenav">
+          <ul>
+            <li id="kungssangen" onclick="changeArticleContent('kungssangen')">Kungssången</li>
+            <li id="vem-kan-kroka" onclick="changeArticleContent('vem-kan-kroka')">Vem kan kröka?</li>
+            <li id="hell-and-gore" onclick="changeArticleContent('hell-and-gore')">Hell and Gore</li>
+            <li id="siffervisan" onclick="changeArticleContent('siffervisan')">Siffervisan</li>
+            <li id="feta-fransyskor" onclick="changeArticleContent('feta-fransyskor')">Feta Fransyskor</li>       
+            <li id="spritbolaget" onclick="changeArticleContent('spritbolaget')">Spritbolaget</li>                                 
+            <li id="drunken-sailor" onclick="changeArticleContent('drunken-sailor')">Drunken Sailor</li>                                 
+            <li id="broder-jakob" onclick="changeArticleContent('broder-jakob')">Brother Jakob</li>                                 
+            <li id="小星星" onclick="changeArticleContent('小星星')">小星星 </li>                                 
+            <li id="jag-ska-festa" onclick="changeArticleContent('jag-ska-festa')">Jag ska festa</li>                                 
+            <li id="gamla-klang-och-jubeltid" onclick="changeArticleContent('gamla-klang-och-jubeltid')">Gamla klang och jubeltid</li>                                 
+            <li id="cheatcodes" onclick="changeArticleContent('cheatcodes')">Cheatcodes</li>
+        </ul>
+      </nav>
+
+      <!-- article content will be loaded in from article.js here -->
+      <article id="article"></article>
+    </main>
+
+    <!-- footer will be loaded in from footer.js here -->
+    <footer id="footer" class="gray-bg"></footer>
+
+    <script>
+      //Loads header and footer on page load
+      loadHeader();
+      loadFooter();
+      
+      //If getCurrentArticle fails, show this page
+      const fallback = 'asienkunskap';
+      var article = getCurrentArticle(fallback);
+
+      //Loads article on page load
+      loadArticleContent(article);
+
+      //Browser history event
+      window.addEventListener('popstate', function(event) {
+        var article = getCurrentArticle(fallback);        
+        
+        //Loads last article on history back
+        loadArticleContent(article);
+      });
+    </script>
+  </body>
+</html>
