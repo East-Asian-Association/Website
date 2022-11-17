@@ -200,12 +200,13 @@ aside img {
 } 
 
 .sidenav li {
-  font-size: 17px;
+  font-size: 16px;
   margin: 4px 0;
   padding: 8px;
   white-space: nowrap;
   font-weight: bold;
   color: var(--black);
+  border-radius: 4px;
 }
 
 .sidenav li:hover {
@@ -217,7 +218,6 @@ aside img {
 .selected {
   color: var(--white) !important;
   background-color: var(--red)  !important;
-  border-radius: 4px;
 }
 
 /* Header */
