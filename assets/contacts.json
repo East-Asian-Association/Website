@@ -16,7 +16,7 @@
         },
         {
             "post": "Sekreterare",
-            "name": "Saknas",
+            "name": "Tilda Ek",
             "studorgmail": "sekr@eastasian.studorg.liu.se",
             "gmail": "sekr.eaa@gmail.com"
         },
@@ -81,6 +81,12 @@
             "name": "Chioma Otonna",
             "studorgmail": "",
             "gmail": "valbered.eaa@gmail.com"
+        },
+        {
+            "post": "Utbytesansvarig",
+            "name": "Salomon Hersen",
+            "studorgmail": "",
+            "gmail": ""
         }
     ]
 }
