@@ -490,3 +490,29 @@ b {
   align-items: center;
   white-space: nowrap;
 }
+
+/* Hans Spaghettikod, ta bort senare. */
+.summary-item-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.summary-text-right {
+  flex: 1;
+  padding: 1rem;
+  padding-right: 2rem;
+}
+
+.summary-image-right {
+  width: 50%;
+  margin-top: 2rem; /* Add this line to adjust the image position */
+}
+
+.summary-image-right img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
