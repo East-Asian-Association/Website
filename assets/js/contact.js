@@ -9,7 +9,7 @@ fetch('/assets/contacts.json')
                         "<div class='member-info'>" +
                             "<h2>" + member.post + "</h2>" +
                             "<h3>" + member.name + "</h3>" +
-                            "<p>E-mail: " + member.gmail + "</p>" +
+                            "<p>" + member.gmail + "</p>" +
                         "</div>" + 
                         "<div class='member-photo'>" +
                             "<img src='/assets/img/" + bild + "'></img>" +
