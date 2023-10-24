@@ -5,7 +5,8 @@
   font-style: normal;
   font-weight: normal;
   src: local(''),
-       url('/assets/fonts/KorolevLiU-Medium.woff2') format('woff2')
+      /* url('/assets/fonts/KorolevLiU-Medium.woff2') format('woff2') */
+      url('/assets/fonts/BarlowCondensed-Regular.woff2') format('woff2')
 }
 
 @font-face {
@@ -13,7 +14,8 @@
   font-style: normal;
   font-weight: bold;
   src: local(''),
-       url('/assets/fonts/KorolevLiU-Bold.woff2') format('woff2')
+      /* url('/assets/fonts/KorolevLiU-Bold.woff2') format('woff2') */
+      url('/assets/fonts/BarlowCondensed-Bold.woff2') format('woff2')
 }
 
 @font-face {
@@ -21,7 +23,8 @@
   font-style: normal;
   font-weight: normal;
   src: local(''),
-       url('/assets/fonts/KorolevLiU-Light.woff2') format('woff2');
+      /* url('/assets/fonts/KorolevLiU-Light.woff2') format('woff2') */
+      url('/assets/fonts/BarlowCondensed-Light.woff2') format('woff2')
 }
 
 @keyframes fade-in {
