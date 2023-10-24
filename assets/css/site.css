@@ -1,29 +1,26 @@
 /* Global parameters */
 
 @font-face {
-  font-family: 'Liu';
+  font-family: 'Barlow';
   font-style: normal;
   font-weight: normal;
   src: local(''),
-      /* url('/assets/fonts/KorolevLiU-Medium.woff2') format('woff2') */
       url('/assets/fonts/BarlowCondensed-Regular.woff2') format('woff2')
 }
 
 @font-face {
-  font-family: 'Liu';
+  font-family: 'Barlow';
   font-style: normal;
   font-weight: bold;
   src: local(''),
-      /* url('/assets/fonts/KorolevLiU-Bold.woff2') format('woff2') */
       url('/assets/fonts/BarlowCondensed-Bold.woff2') format('woff2')
 }
 
 @font-face {
-  font-family: 'Liu-Light';
+  font-family: 'Barlow-Light';
   font-style: normal;
   font-weight: normal;
   src: local(''),
-      /* url('/assets/fonts/KorolevLiU-Light.woff2') format('woff2') */
       url('/assets/fonts/BarlowCondensed-Light.woff2') format('woff2')
 }
 
@@ -49,7 +46,7 @@ body {
   position: relative;
   min-height: 100vh;
   margin: 0;
-  font-family: Liu;
+  font-family: Barlow;
   background-color: var(--white);
   color: var(--black);
 }
@@ -95,14 +92,14 @@ article {
 }
 
 article p {
-  font-family: Liu-Light;
+  font-family: Barlow-Light;
   font-size: 19px;
   line-height: 1.8em;
   margin: 10px 0 1em 0;
 }
 
 article ul {
-  font-family: Liu-Light;
+  font-family: Barlow-Light;
   font-size: 18px;
   margin-bottom: 30px;
 }
@@ -128,7 +125,7 @@ article a {
   text-decoration: none;
   color: var(--black);
   font-weight: bold;
-  font-family: Liu;
+  font-family: Barlow;
 }
 
 article a:visited {
@@ -455,7 +452,7 @@ footer hr {
 }
 
 b {
-  font-family: Liu;
+  font-family: Barlow;
   font-weight: bold;
 }
 
