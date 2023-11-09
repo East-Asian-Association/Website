@@ -85,7 +85,7 @@
 .banner-button p {
   padding: 8px 24px 8px 24px;
   margin: 0;
-  font-family: Liu;
+  font-family: Barlow;
   font-weight: bold;
   font-size: 20px;
   color: var(--black);
@@ -184,7 +184,7 @@
 
 .summary-text p {
   font-size: 20px;
-  font-family: Liu-Light;
+  font-family: Barlow-Light;
 }
 
 @media (max-width: 950px) {
